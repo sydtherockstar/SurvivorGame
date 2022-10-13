@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82292c5f507563c43988a5e833a2a6c2, type: 3}
+  m_Name: RedProjectile
+  m_EditorClassIdentifier: 
+  Name: RedProjectile
+  spellStats:
+    damage: 10
+    timeToAttack: 2
+    numberOfAttack: 1
+  spellBasePrefab: {fileID: 4711105877172009325, guid: ae3c396f4dea02e46b0549aeef148d9e, type: 3}
+  upgrades:
+  - {fileID: 11400000, guid: 4c60f5444ea9f694dbf83c83e5bdc5f8, type: 2}
+  - {fileID: 11400000, guid: 1836e2d0d0a7d9041a9a8571929317e3, type: 2}
+  - {fileID: 11400000, guid: da51f89238f3103498e11380f64ac73f, type: 2}
+  - {fileID: 11400000, guid: fa5effdabf8ca1c4b8b9df972b53532e, type: 2}

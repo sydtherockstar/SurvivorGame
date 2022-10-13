@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82292c5f507563c43988a5e833a2a6c2, type: 3}
+  m_Name: BlueBeam
+  m_EditorClassIdentifier: 
+  Name: BlueBeam
+  spellStats:
+    damage: 10
+    timeToAttack: 1.5
+    numberOfAttack: 1
+  spellBasePrefab: {fileID: 5395839485844652764, guid: 75f6e2a60c8aa2c4c9ad489dd7b95f05, type: 3}
+  upgrades:
+  - {fileID: 11400000, guid: 7391131465280e4428b2e6a6bb20f8c6, type: 2}
+  - {fileID: 11400000, guid: 46eda5402cc9f8a4fbbea74e55005d0b, type: 2}
+  - {fileID: 11400000, guid: 16970159ef9649e4895bc8b3a03b964d, type: 2}
+  - {fileID: 11400000, guid: da01aa5b262446e42a31e79b1b3b57f6, type: 2}
