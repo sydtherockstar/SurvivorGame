@@ -22,9 +22,9 @@ public class Level : MonoBehaviour
         }
     }
 
-    internal void AddUpgradeToListOfAvailableUpgrades(List<UpgradeData> upgradesToAdd)
+    internal void AddUpgradeToListOfAvailableUpgrades(UpgradeData upgradesToAdd)
     {
-        this.upgrades.AddRange(upgradesToAdd);
+        this.upgrades.Add(upgradesToAdd);
     }
 
     private void Start() {
@@ -44,6 +44,7 @@ public class Level : MonoBehaviour
         switch(upgradeData.upgradeType){
             case UpgradeType.SpellUpgrade:
                 spellManager.UpgradeSpell(upgradeData);
+                spellManager.CheckLevelUp(upgradeData.spellData, upgradeData);
                 break;
             case UpgradeType.PassiveUpgrade:
                 break;

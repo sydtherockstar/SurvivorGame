@@ -22,7 +22,19 @@ public class SpellManager : MonoBehaviour
         spells.Add(spellBase);
         Level level = GetComponent<Level>();
         if(level != null){
-            level.AddUpgradeToListOfAvailableUpgrades(spellSO.upgrades);
+            level.AddUpgradeToListOfAvailableUpgrades(spellSO.upgrades[0]);
+        }
+    }
+    public void CheckLevelUp(SpellSO spellSO, UpgradeData upgradeData){
+        int i = spellSO.upgrades.IndexOf(upgradeData);
+        Level level = GetComponent<Level>();
+        if(level != null){
+            if(upgradeData == spellSO.upgrades[i]){
+                if(i <= (spellSO.upgrades.Count - 2)){
+                    level.AddUpgradeToListOfAvailableUpgrades(spellSO.upgrades[i + 1]);
+                }
+            }
+            
         }
     }
 
