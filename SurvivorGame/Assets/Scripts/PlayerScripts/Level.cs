@@ -13,8 +13,10 @@ public class Level : MonoBehaviour
     List<UpgradeData> selectedUpgrades;
     [SerializeField] List<UpgradeData> acquiredUpgrades;
     SpellManager spellManager;
+    PassiveItems passiveItemManager;
     private void Awake() {
         spellManager = GetComponent<SpellManager>();
+        passiveItemManager = GetComponent<PassiveItems>();
     }
     int TO_LEVEL_UP{
         get{
@@ -47,11 +49,14 @@ public class Level : MonoBehaviour
                 spellManager.CheckLevelUp(upgradeData.spellData, upgradeData);
                 break;
             case UpgradeType.PassiveUpgrade:
+                passiveItemManager.CheckPassiveItemUpgrade(upgradeData.passiveItem, upgradeData);
+                passiveItemManager.Upgrade(upgradeData.passiveUpgradeStats);
                 break;
             case UpgradeType.SpellUnlock:
                 spellManager.AddSpell(upgradeData.spellData);
                 break;
             case UpgradeType.PassiveUnlock:
+                passiveItemManager.Equip(upgradeData.passiveItem);
                 break;
         }
         acquiredUpgrades.Add(upgradeData);

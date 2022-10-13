@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e3bad299f2d9e6429053f8d57154868, type: 3}
+  m_Name: MaxHealth
+  m_EditorClassIdentifier: 
+  itemName: MaxHealth
+  passiveItemStats:
+    armor: 0
+    maxHealth: 50
+  passiveUpgrades:
+  - {fileID: 11400000, guid: 140f13a640164c847bc963eedcc09e79, type: 2}
+  - {fileID: 11400000, guid: 83a419a1dce9e5e4eaff54ed55b254ab, type: 2}
+  - {fileID: 11400000, guid: 13a5a9a3216b1c94e90598dc890f9193, type: 2}
+  - {fileID: 11400000, guid: 725a87a13a564c342bbe4fe9ba678d26, type: 2}

@@ -4870,7 +4870,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   experienceBar: {fileID: 606479616}
   upgradePanel: {fileID: 959382232}
-  upgrades: []
+  upgrades:
+  - {fileID: 11400000, guid: 9da281923bc8be649980c27436c94d22, type: 2}
+  - {fileID: 11400000, guid: c7fd909bd7a57b249a819c0fc176196f, type: 2}
   acquiredUpgrades: []
 --- !u!114 &2042215696
 MonoBehaviour:
@@ -4893,13 +4895,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2042215687}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4a0c65fd10db18c4ea7a816d3a4e1adb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   items: []
-  armorTest: {fileID: 11400000, guid: b12909d8ebb835c418fb301586f0feb5, type: 2}
 --- !u!114 &2042215698
 MonoBehaviour:
   m_ObjectHideFlags: 0

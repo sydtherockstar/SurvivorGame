@@ -32,7 +32,7 @@ public class SpellManager : MonoBehaviour
             if(upgradeData == spellSO.upgrades[i]){
                 if(i <= (spellSO.upgrades.Count - 2)){
                     level.AddUpgradeToListOfAvailableUpgrades(spellSO.upgrades[i + 1]);
-                }
+                }else { return; }
             }
             
         }

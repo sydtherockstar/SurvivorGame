@@ -17,4 +17,6 @@ public class UpgradeData : ScriptableObject
     public Sprite icon;
     public SpellSO spellData;
     public SpellStats spellUpgradeStats;
+    public Item passiveItem;
+    public PassiveItemStats passiveUpgradeStats;
 }

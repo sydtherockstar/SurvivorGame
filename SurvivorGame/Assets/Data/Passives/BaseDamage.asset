@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5e3bad299f2d9e6429053f8d57154868, type: 3}
-  m_Name: KnightArmor
+  m_Name: BaseDamage
   m_EditorClassIdentifier: 
-  itemName: KnightArmor
-  armor: 25
+  itemName: 
+  armor: 0

@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PlayerProperties : MonoBehaviour
 {
-    [SerializeField] int maxHp;
+    public int maxHp;
     [SerializeField] int currentHp;
     [SerializeField] Status hpBar;
     [HideInInspector] public Level level;
@@ -28,12 +28,6 @@ public class PlayerProperties : MonoBehaviour
             Heal(1);
             hpRegenerationTimer -= 1;
         }
-    }
-    public int GetMaxHp(){
-        return maxHp;
-    }
-    public int GetCurrentHp(){
-        return currentHp;
     }
     public void TakeDamage(int damage){
         if(isDead == true) { return; }

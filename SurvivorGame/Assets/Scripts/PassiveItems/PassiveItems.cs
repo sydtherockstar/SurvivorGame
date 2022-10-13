@@ -5,13 +5,10 @@ using UnityEngine;
 public class PassiveItems : MonoBehaviour
 {
     [SerializeField] List<Item> items;
+    PassiveItemStats passiveItemStats;
     PlayerProperties pP;
-    [SerializeField] Item armorTest;
     private void Awake() {
         pP = GetComponent<PlayerProperties>();
-    }
-    private void Start() {
-        Equip(armorTest);
     }
     public void Equip(Item itemEquip){
         if(items == null){
@@ -19,6 +16,24 @@ public class PassiveItems : MonoBehaviour
         }
         items.Add(itemEquip);
         itemEquip.Equip(pP);
+        Level level = GetComponent<Level>();
+        if(level != null){
+            level.AddUpgradeToListOfAvailableUpgrades(itemEquip.passiveUpgrades[0]);
+        }
+    }
+    public void CheckPassiveItemUpgrade(Item passiveItemToCheck, UpgradeData upgradeData){
+        int i = passiveItemToCheck.passiveUpgrades.IndexOf(upgradeData);
+        Level level = GetComponent<Level>();
+        if(level != null){
+            if(upgradeData == passiveItemToCheck.passiveUpgrades[i]){
+                if(i <= (passiveItemToCheck.passiveUpgrades.Count - 2)){
+                    level.AddUpgradeToListOfAvailableUpgrades(passiveItemToCheck.passiveUpgrades[i + 1]);
+                }else { return; }
+            }
+        }
+    }
+    public void Upgrade(PassiveItemStats passiveUpgradeData){
+        passiveUpgradeData.Sum(pP);
     }
     public void UnEquip(Item itemUnEquip){
 
