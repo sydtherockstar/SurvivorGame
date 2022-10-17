@@ -21,10 +21,14 @@ public class PassiveItemStats
         this.maxHealth = maxHealth;
     }
 
-    internal void Sum(PlayerProperties pP)
+    internal void Equip(PlayerProperties pP)
     {
         pP.armor += armor;
         pP.maxHp += maxHealth;
+    }
+    internal void UnEquip(PlayerProperties pP){
+        pP.armor -= armor;
+        pP.maxHp -= maxHealth;
     }
 }
 [CreateAssetMenu]
@@ -33,12 +37,5 @@ public class Item : ScriptableObject
     public string itemName;
     public PassiveItemStats passiveItemStats;
     public List<UpgradeData> passiveUpgrades;
-    public void Equip(PlayerProperties pP){
-         pP.armor += passiveItemStats.armor;
-         pP.maxHp += passiveItemStats.maxHealth;
-    }
-    public void UnEquip(PlayerProperties pP){
-        pP.armor -= passiveItemStats.armor;
-        pP.maxHp -= passiveItemStats.maxHealth;
-    }
+    
 }

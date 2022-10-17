@@ -15,7 +15,7 @@ public class PassiveItems : MonoBehaviour
             items = new List<Item>();
         }
         items.Add(itemEquip);
-        itemEquip.Equip(pP);
+        itemEquip.passiveItemStats.Equip(pP);
         Level level = GetComponent<Level>();
         if(level != null){
             level.AddUpgradeToListOfAvailableUpgrades(itemEquip.passiveUpgrades[0]);
@@ -33,7 +33,7 @@ public class PassiveItems : MonoBehaviour
         }
     }
     public void Upgrade(PassiveItemStats passiveUpgradeData){
-        passiveUpgradeData.Sum(pP);
+        passiveUpgradeData.Equip(pP);
     }
     public void UnEquip(Item itemUnEquip){
 

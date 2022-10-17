@@ -18,7 +18,6 @@ public class UpgradePanelManager : MonoBehaviour
         Clean();
         upgradePanel.SetActive(true);
         pM.PauseGame();
-        
         for(int i = 0; i <upgradeDatas.Count; i++){
             upgradeButtons[i].gameObject.SetActive(true);
             upgradeButtons[i].Set(upgradeDatas[i]);

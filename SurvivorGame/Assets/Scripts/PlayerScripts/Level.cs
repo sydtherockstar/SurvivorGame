@@ -11,6 +11,7 @@ public class Level : MonoBehaviour
     [SerializeField] UpgradePanelManager upgradePanel;
     [SerializeField] List<UpgradeData> upgrades;
     List<UpgradeData> selectedUpgrades;
+    List<int> randomNumberList;
     [SerializeField] List<UpgradeData> acquiredUpgrades;
     SpellManager spellManager;
     PassiveItems passiveItemManager;
@@ -85,9 +86,21 @@ public class Level : MonoBehaviour
         if(count > upgrades.Count){
             count = upgrades.Count;
         }
+        if(randomNumberList == null){ randomNumberList = new List<int>(); }
+            randomNumberList.Clear();
+            randomNumberList.AddRange(GetRandomList(count));
         for(int i = 0; i < count; i++){
-            upgradeDatas.Add(upgrades[UnityEngine.Random.Range(0, upgrades.Count)]);
+            upgradeDatas.Add(upgrades[randomNumberList[i]]);
         }  
         return upgradeDatas;
+    }
+    public List<int> GetRandomList(int maxNumber){
+        List<int> randomNumberList = new List<int>();
+        for(int i = 0; i < maxNumber; i++){
+            int numToAdd = UnityEngine.Random.Range(0,maxNumber);
+                while(randomNumberList.Contains(numToAdd)){
+                numToAdd = UnityEngine.Random.Range(0,maxNumber);
+                } randomNumberList.Add(numToAdd);
+        }return randomNumberList;
     }
 }
