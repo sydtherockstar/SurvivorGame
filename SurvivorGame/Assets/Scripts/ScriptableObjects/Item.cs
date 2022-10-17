@@ -7,28 +7,42 @@ public class PassiveItemStats
 {
     public int armor;
     public int maxHealth;
-    /*public int baseDamage;
-    public int cooldown;
+    public int baseDamage;
     public int duplicatorCount;
+    public float cooldown;
     public int expUp;
-    public int healthRecovery;
+    public float healthRecovery;
+    public float moveFast;
+    public float spellSpeed;
+    public Vector3 spellScale;
     
-    public int moveFast;
-    public int spellScale;
-    public int spellSpeed;*/
-    public PassiveItemStats(int armor, int maxHealth){
-        this.armor = armor;
-        this.maxHealth = maxHealth;
-    }
+    
 
     internal void Equip(PlayerProperties pP)
     {
         pP.armor += armor;
         pP.maxHp += maxHealth;
+        pP.baseDamage += baseDamage;
+        pP.duplicatorCount += duplicatorCount;
+        pP.baseCooldown -= cooldown;
+        pP.expUpRate += expUp;
+        pP.hpRegenerationRate += healthRecovery;
+        pP.moveFast += moveFast;
+        pP.spellSpeed += spellSpeed;
+        pP.spellScale += spellScale;
+        
     }
     internal void UnEquip(PlayerProperties pP){
         pP.armor -= armor;
         pP.maxHp -= maxHealth;
+        pP.baseDamage = baseDamage;
+        pP.duplicatorCount -= duplicatorCount;
+        pP.baseCooldown -= cooldown;
+        pP.expUpRate -= expUp;
+        pP.hpRegenerationRate -= healthRecovery;
+        pP.moveFast -= moveFast;
+        pP.spellSpeed -= spellSpeed;
+        pP.spellScale -= spellScale;
     }
 }
 [CreateAssetMenu]

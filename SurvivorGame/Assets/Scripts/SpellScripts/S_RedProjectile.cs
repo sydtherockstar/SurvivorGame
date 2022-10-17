@@ -10,15 +10,18 @@ public class S_RedProjectile : SpellBase
 
     public override void Attack()
     {
-        
-        for(int i = 0; i < spellStats.numberOfAttack; i++){
+        int duplicatorCount = 0;
+        duplicatorCount = spellStats.numberOfAttack + pP.duplicatorCount;
+        for(int i = 0; i < duplicatorCount; i++){
             Vector3 position = transform.position;
-            if(spellStats.numberOfAttack > 1){
-                position.y -= (spread * spellStats.numberOfAttack - 1) / 2;
+            if(duplicatorCount > 1){
+                position.y -= (spread * duplicatorCount - 1) / 2;
                 position.y += i * spread;
             }
             GameObject fireball = Instantiate(redProjectilePrefab, position, transform.rotation);
-            fireball.GetComponent<RP_Movement>().spellDamage = spellStats.damage;
+            fireball.GetComponent<RP_Movement>().spellDamage = spellStats.damage + pP.baseDamage;
+            fireball.GetComponent<RP_Movement>().moveSpeed += pP.spellSpeed;
+            fireball.transform.localScale += pP.spellScale;
         }
         
     }

@@ -10,15 +10,17 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 rawInput;
     [SerializeField] float moveSpeed;
     Rigidbody2D rb2d;
+    PlayerProperties pP;
     private void Awake() {
         rb2d = GetComponent<Rigidbody2D>();
+        pP = GetComponent<PlayerProperties>();
     }
     private void FixedUpdate() {
         Move();
     }
 
     private void Move(){
-        Vector3 movementVector = rawInput * moveSpeed;
+        Vector3 movementVector = rawInput * (moveSpeed + pP.moveFast);
         rb2d.velocity = movementVector;
     }
     void OnMove(InputValue value) {   

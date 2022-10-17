@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 949aaf0ae170ffc4f8803860a3281903, type: 3}
+  m_Name: DuplicatorUnlock
+  m_EditorClassIdentifier: 
+  upgradeType: 3
+  Name: Duplicator Unlock
+  icon: {fileID: 21300000, guid: 11262ec5a4783e744ba9dccdb19d346c, type: 3}
+  spellData: {fileID: 0}
+  spellUpgradeStats:
+    damage: 0
+    timeToAttack: 0
+    numberOfAttack: 0
+  passiveItem: {fileID: 11400000, guid: ac315a139a0d8494f83be10771abb4d0, type: 2}
+  passiveUpgradeStats:
+    armor: 0
+    maxHealth: 0
+    baseDamage: 0
+    duplicatorCount: 0

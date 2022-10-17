@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RP_Movement : MonoBehaviour
 {
-    [SerializeField] float moveSpeed;
+    public float moveSpeed;
     public int spellDamage;
     [SerializeField] float lifeTime;
     [SerializeField] int hitCount;
@@ -12,9 +12,6 @@ public class RP_Movement : MonoBehaviour
     GameObject player;
     Vector2 mousePos;
     Vector2 targetDirection;
-    
-    
-
     private void Awake() {
         rb2d = GetComponent<Rigidbody2D>();
         player = GameObject.Find("Shooter");

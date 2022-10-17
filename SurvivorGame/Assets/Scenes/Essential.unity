@@ -4849,11 +4849,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 100
+  baseDamage: 0
+  duplicatorCount: 0
+  baseCooldown: 0
+  spellSpeed: 0
+  spellScale: {x: 0, y: 0, z: 0}
+  expUpRate: 0
+  moveFast: 0
+  armor: 0
   currentHp: 50
   hpBar: {fileID: 51475468}
   level: {fileID: 0}
   coins: {fileID: 0}
-  armor: 0
   hpRegenerationRate: 1
   hpRegenerationTimer: 1
 --- !u!114 &2042215695
@@ -4871,8 +4878,9 @@ MonoBehaviour:
   experienceBar: {fileID: 606479616}
   upgradePanel: {fileID: 959382232}
   upgrades:
-  - {fileID: 11400000, guid: 9da281923bc8be649980c27436c94d22, type: 2}
-  - {fileID: 11400000, guid: c7fd909bd7a57b249a819c0fc176196f, type: 2}
+  - {fileID: 11400000, guid: 6af0a71ff5a621b478da4521cf6e2eb4, type: 2}
+  - {fileID: 11400000, guid: d55ec6975a2d34b4a81f5c7921d59cf7, type: 2}
+  - {fileID: 11400000, guid: e11f8c924e33eaf49a25aa50df6bbe67, type: 2}
   acquiredUpgrades: []
 --- !u!114 &2042215696
 MonoBehaviour:

@@ -104,7 +104,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2070268689009876282, guid: 304158ce54da31b49932482c9e744470, type: 3}
       propertyPath: timeToDisable
-      value: 0.2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3208449568924540272, guid: 304158ce54da31b49932482c9e744470, type: 3}
       propertyPath: m_Name

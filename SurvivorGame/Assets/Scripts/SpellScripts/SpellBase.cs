@@ -6,12 +6,20 @@ public abstract class SpellBase : MonoBehaviour
 {
     public SpellSO spellData;
     public SpellStats spellStats; 
+    public PlayerProperties pP;
+    GameObject player;
+    private void Awake() {
+        player = GameObject.Find("Player");
+        pP = player.GetComponent<PlayerProperties>();
+    }
     float timer;
     public void Update() {
+        //float newTimer = 0f;
         timer -= Time.deltaTime;
         if(timer < 0f){
             Attack();
-            timer = spellStats.timeToAttack;
+            timer = spellStats.timeToAttack + pP.baseCooldown;
+            timer = Mathf.Clamp(timer, 0.1f, timer);
         }
     }
     public virtual void SetData(SpellSO sd){

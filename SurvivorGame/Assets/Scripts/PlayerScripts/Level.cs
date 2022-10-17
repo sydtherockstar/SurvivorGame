@@ -15,9 +15,11 @@ public class Level : MonoBehaviour
     [SerializeField] List<UpgradeData> acquiredUpgrades;
     SpellManager spellManager;
     PassiveItems passiveItemManager;
+    PlayerProperties pP;
     private void Awake() {
         spellManager = GetComponent<SpellManager>();
         passiveItemManager = GetComponent<PassiveItems>();
+        pP = GetComponent<PlayerProperties>();
     }
     int TO_LEVEL_UP{
         get{
@@ -35,7 +37,8 @@ public class Level : MonoBehaviour
         experienceBar.SetLevelText(level);
     }
     public void AddExperience(int amount){
-        experience += amount;
+        
+        experience += (amount + ((amount * pP.expUpRate)/100));
         CheckLevelUp();
         experienceBar.UpdateExperienceSlider(experience, TO_LEVEL_UP);
     }

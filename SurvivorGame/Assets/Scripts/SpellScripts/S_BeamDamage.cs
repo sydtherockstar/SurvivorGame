@@ -6,8 +6,8 @@ public class S_BeamDamage : MonoBehaviour
 {
 
     public int spellDamage;
+    
     private void OnTriggerEnter2D(Collider2D other) {
-        
             InterfaceDamagable e = other.GetComponent<InterfaceDamagable>();
             if(e != null){
                 e.TakeDamage(spellDamage);

@@ -12,5 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e3bad299f2d9e6429053f8d57154868, type: 3}
   m_Name: BaseDamage
   m_EditorClassIdentifier: 
-  itemName: 
-  armor: 0
+  itemName: BaseDamage
+  passiveItemStats:
+    armor: 0
+    maxHealth: 0
+    baseDamage: 5
+  passiveUpgrades:
+  - {fileID: 11400000, guid: 8693405a774c701428237340d6737472, type: 2}
+  - {fileID: 11400000, guid: 1493c68e6a1828444a094d232f9acba4, type: 2}
+  - {fileID: 11400000, guid: d413ab3604a5e8947b103a4e5e620219, type: 2}
+  - {fileID: 11400000, guid: c4f204949e30664478386a43c1ec9929, type: 2}

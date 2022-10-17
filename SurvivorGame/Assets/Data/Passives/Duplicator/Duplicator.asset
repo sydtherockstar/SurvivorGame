@@ -10,7 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5e3bad299f2d9e6429053f8d57154868, type: 3}
-  m_Name: SpellSpeed
+  m_Name: Duplicator
   m_EditorClassIdentifier: 
-  itemName: 
-  armor: 0
+  itemName: Duplicator
+  passiveItemStats:
+    armor: 0
+    maxHealth: 0
+    baseDamage: 0
+    duplicatorCount: 1
+  passiveUpgrades:
+  - {fileID: 11400000, guid: dc79a63973292b744b06567f9dc045ef, type: 2}
+  - {fileID: 11400000, guid: a3ae4d8183a460242a675e47e38cfca9, type: 2}

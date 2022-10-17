@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: BlueBeam
   spellStats:
-    damage: 10
+    damage: 12
     timeToAttack: 1.5
     numberOfAttack: 1
   spellBasePrefab: {fileID: 5395839485844652764, guid: 75f6e2a60c8aa2c4c9ad489dd7b95f05, type: 3}

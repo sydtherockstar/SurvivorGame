@@ -6,11 +6,18 @@ using UnityEngine;
 public class PlayerProperties : MonoBehaviour
 {
     public int maxHp;
+    public int baseDamage;
+    public int duplicatorCount;
+    public float baseCooldown;
+    public float spellSpeed;
+    public Vector3 spellScale;
+    public int expUpRate;
+    public float moveFast;
+    public int armor = 0;
     [SerializeField] int currentHp;
     [SerializeField] Status hpBar;
     [HideInInspector] public Level level;
     [HideInInspector] public Coins coins;
-    public int armor = 0;
     public float hpRegenerationRate = 1f;
     public float hpRegenerationTimer = 1f;
     private bool isDead;
@@ -28,6 +35,12 @@ public class PlayerProperties : MonoBehaviour
             Heal(1);
             hpRegenerationTimer -= 1;
         }
+    }
+    public int GetMaxHp(){
+        return maxHp;
+    }
+    public int GetCurrentHp(){
+        return currentHp;
     }
     public void TakeDamage(int damage){
         if(isDead == true) { return; }
