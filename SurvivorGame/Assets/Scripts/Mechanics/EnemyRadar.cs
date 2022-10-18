@@ -5,16 +5,7 @@ using UnityEngine;
 public class EnemyRadar : MonoBehaviour
 {
     GameObject[] multipleEnemies;
-    Transform closestEnemy;
-    void Awake()
-    {
-        closestEnemy = null;
-    }
-    void Update()
-    {
-        closestEnemy = FindClosestEnemy();
-    }
-    Transform FindClosestEnemy()
+    public Transform FindClosestEnemy()
     {
         multipleEnemies = GameObject.FindGameObjectsWithTag("Enemy");
         float closestDistance = Mathf.Infinity;
@@ -29,11 +20,33 @@ public class EnemyRadar : MonoBehaviour
                 closestDistance = currentDistance;
                 trans = go.transform;
             }
+            if(trans == null){
+                trans = go.transform;
+            }
         }
         return trans;
     }
-    public Transform GetClosestEnemy()
+    public Transform FindSecondClosestEnemy()
     {
-        return closestEnemy;
+        multipleEnemies = GameObject.FindGameObjectsWithTag("Enemy");
+        float closestDistance = Mathf.Infinity;
+        float secondClosestDistance = closestDistance;
+        Transform trans = null;
+        foreach(GameObject go in multipleEnemies)
+        {
+            float currentDistance;
+            currentDistance = Vector3.Distance(transform.position, go.transform.position);
+            if(currentDistance < closestDistance){  
+                secondClosestDistance = closestDistance; 
+                closestDistance = currentDistance;
+            }else if (currentDistance < secondClosestDistance){
+                secondClosestDistance = currentDistance;
+                trans = go.transform;
+            }
+            if(trans == null){
+                trans = go.transform;
+            }
+        }
+        return trans;
     }
 }

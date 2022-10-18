@@ -12,9 +12,8 @@ public abstract class SpellBase : MonoBehaviour
         player = GameObject.Find("Player");
         pP = player.GetComponent<PlayerProperties>();
     }
-    float timer;
+    float timer = 0.1f;
     public void Update() {
-        //float newTimer = 0f;
         timer -= Time.deltaTime;
         if(timer < 0f){
             Attack();

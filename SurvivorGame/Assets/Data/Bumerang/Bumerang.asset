@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82292c5f507563c43988a5e833a2a6c2, type: 3}
+  m_Name: Bumerang
+  m_EditorClassIdentifier: 
+  Name: Bumerang
+  spellStats:
+    damage: 10
+    timeToAttack: 2
+    numberOfAttack: 1
+  spellBasePrefab: {fileID: 2655806177433935562, guid: 0caa132ef20c19d41affd75577f51084, type: 3}
+  upgrades:
+  - {fileID: 11400000, guid: 8fb8a69805c58754b925cc589b189daf, type: 2}
+  - {fileID: 11400000, guid: 07b62a220705b6149969c36de940f777, type: 2}
+  - {fileID: 11400000, guid: ab54a8769fcd1bf49a4320c9ba153225, type: 2}
+  - {fileID: 11400000, guid: b5fab6e1e18baaf4ea297e59bacf9df4, type: 2}
