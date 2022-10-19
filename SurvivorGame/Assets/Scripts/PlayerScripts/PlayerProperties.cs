@@ -49,7 +49,7 @@ public class PlayerProperties : MonoBehaviour
         if (currentHp <= 0)
         {
             isDead = true;
-            GetComponent<GameOver>().GameOverFunc();
+            GetComponent<GameOver>().YouDied();
         }
         hpBar.SetState(currentHp, maxHp);
     }

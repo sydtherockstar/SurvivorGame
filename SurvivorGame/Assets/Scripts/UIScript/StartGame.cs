@@ -1,18 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class StartGame : MonoBehaviour
 {   
-    [SerializeField] GameObject startPanel;
-
-    public void StartGameScene(string stageToPlay){
-        SceneManager.LoadScene("Essential", LoadSceneMode.Single);
-        SceneManager.LoadScene(stageToPlay, LoadSceneMode.Additive);
+    public string level;
+    
+    private void Start() {
+        this.gameObject.SetActive(false);
     }
-    public void StartGamePanel(){
-        startPanel.SetActive(true);
+    public void LevelSelection(string levelString){ 
+        level = levelString;
+    }
+    public void StartGameScene(){
+        SceneManager.LoadScene("Essential", LoadSceneMode.Single);
+        SceneManager.LoadScene(level, LoadSceneMode.Additive);
     }
 }

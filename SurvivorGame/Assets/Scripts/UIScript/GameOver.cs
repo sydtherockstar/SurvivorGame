@@ -5,9 +5,9 @@ using UnityEngine;
 public class GameOver : MonoBehaviour
 {
     public GameObject gameOverPanel;
-    public void GameOverFunc(){
+    public void YouDied(){
         Debug.Log("Game Over");
         gameOverPanel.SetActive(true);
-        GetComponent<PlayerMovement>().enabled = false;
+        Time.timeScale = 0f;
     }
 }
