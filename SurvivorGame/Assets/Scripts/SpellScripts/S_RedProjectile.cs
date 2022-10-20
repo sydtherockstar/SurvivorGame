@@ -21,8 +21,9 @@ public class S_RedProjectile : SpellBase
             GameObject fireball = Instantiate(redProjectilePrefab, position, transform.rotation);
             fireball.GetComponent<RP_Movement>().spellDamage = spellStats.damage + pP.baseDamage;
             fireball.GetComponent<RP_Movement>().moveSpeed += pP.spellSpeed;
-            fireball.transform.localScale += pP.spellScale;
+            fireball.transform.localScale = spellStats.scale + pP.spellScale;
         }
         
     }
+    public override void Disable(){}
 }

@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 949aaf0ae170ffc4f8803860a3281903, type: 3}
-  m_Name: RPLevel3
+  m_Name: BloodpoolLevel 4
   m_EditorClassIdentifier: 
   upgradeType: 0
-  Name: Level3
+  Name: Bloodpool Level 4
   description: 
-  icon: {fileID: 21300000, guid: 44e0e5e3669b9274ab3a084eb08d2039, type: 3}
-  spellData: {fileID: 11400000, guid: 0d918d03f67e3ff4c883a83109f7eab3, type: 2}
+  icon: {fileID: 21300000, guid: ba4383d2d1bbf0b4f96600fce3b6d6a1, type: 3}
+  spellData: {fileID: 11400000, guid: 47e6e6c539aa0bd46bcfb8ea3fe6b4ec, type: 2}
   spellUpgradeStats:
     damage: 2
-    timeToAttack: 0
+    timeToAttack: -0.1
     numberOfAttack: 0
-    scale: {x: 0.1, y: 0.1, z: 0}
+    scale: {x: 1, y: 1, z: 0}
   passiveItem: {fileID: 0}
   passiveUpgradeStats:
     armor: 0

@@ -17,6 +17,7 @@ MonoBehaviour:
     damage: 10
     timeToAttack: 2
     numberOfAttack: 1
+    scale: {x: 0.7, y: 0.7, z: 0}
   spellBasePrefab: {fileID: 4711105877172009325, guid: ae3c396f4dea02e46b0549aeef148d9e, type: 3}
   upgrades:
   - {fileID: 11400000, guid: 4c60f5444ea9f694dbf83c83e5bdc5f8, type: 2}

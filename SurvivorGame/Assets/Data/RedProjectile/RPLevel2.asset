@@ -14,8 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   upgradeType: 0
   Name: Level2
+  description: 
   icon: {fileID: -727841050, guid: ff4ced6154d3e84439c7851f1959ab5e, type: 3}
   spellData: {fileID: 11400000, guid: 0d918d03f67e3ff4c883a83109f7eab3, type: 2}
   spellUpgradeStats:
     damage: 10
     timeToAttack: -1
+    numberOfAttack: 0
+    scale: {x: 0.1, y: 0.1, z: 0}
+  passiveItem: {fileID: 0}
+  passiveUpgradeStats:
+    armor: 0
+    maxHealth: 0
+    baseDamage: 0
+    duplicatorCount: 0
+    cooldown: 0
+    expUp: 0
+    healthRecovery: 0
+    moveFast: 0
+    spellSpeed: 0
+    spellScale: {x: 0, y: 0, z: 0}

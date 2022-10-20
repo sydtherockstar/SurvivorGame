@@ -24,4 +24,5 @@ public class BumerangHolder : SpellBase
         }
         
     }
+    public override void Disable(){}
 }

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82292c5f507563c43988a5e833a2a6c2, type: 3}
+  m_Name: Bloodpool
+  m_EditorClassIdentifier: 
+  Name: Bloodpool
+  spellStats:
+    damage: 15
+    timeToAttack: 1.2
+    numberOfAttack: 0
+    scale: {x: 5, y: 5, z: 0}
+  spellBasePrefab: {fileID: 7957195208343423174, guid: 4d8063a39e0e06b4cb74d2e1084c10a6, type: 3}
+  upgrades:
+  - {fileID: 11400000, guid: c8ea20c950f3b044b9ba6e5c2fe63083, type: 2}
+  - {fileID: 11400000, guid: a4e322c756945d64da22de43cb2c6ad7, type: 2}
+  - {fileID: 11400000, guid: a150bd0f090a9b947ad5fec4e56ec92c, type: 2}
+  - {fileID: 11400000, guid: 76f0e5ebdd3f96b4c8076866606a83b5, type: 2}

@@ -13,6 +13,7 @@ public abstract class SpellBase : MonoBehaviour
         pP = player.GetComponent<PlayerProperties>();
     }
     float timer = 0.1f;
+    public float disableTimer = 0.2f; // belki spellere bu timer eklenebilir DURATION adı altında.
     public void Update() {
         timer -= Time.deltaTime;
         if(timer < 0f){
@@ -20,12 +21,16 @@ public abstract class SpellBase : MonoBehaviour
             timer = spellStats.timeToAttack + pP.baseCooldown;
             timer = Mathf.Clamp(timer, 0.1f, timer);
         }
+        if(timer < disableTimer){
+            Disable();
+        }
     }
     public virtual void SetData(SpellSO sd){
         spellData = sd;
-        spellStats = new SpellStats(sd.spellStats.damage, sd.spellStats.timeToAttack, sd.spellStats.numberOfAttack);
+        spellStats = new SpellStats(sd.spellStats.damage, sd.spellStats.timeToAttack, sd.spellStats.numberOfAttack, sd.spellStats.scale);
     }
     public abstract void Attack();
+    public abstract void Disable();
     public void Upgrade(UpgradeData upgradeData){
         spellStats.Sum(upgradeData.spellUpgradeStats);
     }

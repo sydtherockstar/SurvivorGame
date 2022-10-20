@@ -6603,7 +6603,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spellContainer: {fileID: 2122021103}
-  startingSpell: {fileID: 11400000, guid: 0b4637d6ff04454418da02de3021c742, type: 2}
+  startingSpell: {fileID: 11400000, guid: 7eb71115f30b6e34ca3f40e08b735e37, type: 2}
 --- !u!1 &2061135167
 GameObject:
   m_ObjectHideFlags: 0
