@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e3fc4a5b2aa8646459f078fec643e65b
+guid: d84dd507089eecd4691cdbd83502d6be
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,7 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: purpleEnemy_0
+      name: Level2Boss_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,14 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b22dbf21e0fcdf4e95bb09ea423bc1e
-      internalID: -1477959379
+      spriteID: ada7d7e7e6cd52f409d3626f389a74fd
+      internalID: -1560428625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: purpleEnemy_1
+      name: Level2Boss_1
       rect:
         serializedVersion: 2
         x: 64
@@ -152,14 +152,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d735c76bfcfbb2446a2322e6b74590c3
-      internalID: 865580067
+      spriteID: dcecbd35eb280c54a9f27e80ef711edf
+      internalID: -1987937085
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: purpleEnemy_2
+      name: Level2Boss_2
       rect:
         serializedVersion: 2
         x: 128
@@ -173,14 +173,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9ae95d832d71df4082f595b23cf07cf
-      internalID: 857542111
+      spriteID: 85e261018f7356a4a9ce090434772e1a
+      internalID: -338476015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: purpleEnemy_3
+      name: Level2Boss_3
       rect:
         serializedVersion: 2
         x: 192
@@ -194,14 +194,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5675ae047a29654a82362e1ba65e35f
-      internalID: 1604430463
+      spriteID: 29aac04c87e77d2478de63d1b1e55e7b
+      internalID: 885724946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: purpleEnemy_4
+      name: Level2Boss_4
       rect:
         serializedVersion: 2
         x: 256
@@ -215,14 +215,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52e71d61f8def6848bb1ca945d721867
-      internalID: -214529533
+      spriteID: 337719050872c984ca7e02cacf29a04a
+      internalID: -1362118745
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: purpleEnemy_5
+      name: Level2Boss_5
       rect:
         serializedVersion: 2
         x: 320
@@ -236,14 +236,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff7bac4b1c611df42b1ff991e59af491
-      internalID: -1316071674
+      spriteID: d12d2e62578ac204994f77aabbf05012
+      internalID: 429036282
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: purpleEnemy_6
+      name: Level2Boss_6
       rect:
         serializedVersion: 2
         x: 384
@@ -257,14 +257,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2a7535c48c7b3c4db549a6dd83f4806
-      internalID: -396401981
+      spriteID: b0fa2fc8cbc49694cad45bc7b64f60ed
+      internalID: 2059702036
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: purpleEnemy_7
+      name: Level2Boss_7
       rect:
         serializedVersion: 2
         x: 448
@@ -278,14 +278,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d77ac535203858408aedf70cd8d6a78
-      internalID: -246974993
+      spriteID: c55ae6cd74bd49946a3cfb6d8b8c3bd8
+      internalID: -1969674739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: purpleEnemy_8
+      name: Level2Boss_8
       rect:
         serializedVersion: 2
         x: 512
@@ -299,14 +299,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 833d0e6c18828154594f74d5fc58d9c8
-      internalID: -582551649
+      spriteID: 8a2a6f56c26d3094381e7fb5df2d8abc
+      internalID: 138877590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: purpleEnemy_9
+      name: Level2Boss_9
       rect:
         serializedVersion: 2
         x: 576
@@ -320,14 +320,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd52ba961b1d97847bee104ca82bf786
-      internalID: 2018708963
+      spriteID: 2f0e1a2bbbd38e1479f7b05a5736979b
+      internalID: -1290720681
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: purpleEnemy_10
+      name: Level2Boss_10
       rect:
         serializedVersion: 2
         x: 640
@@ -341,14 +341,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 536117f1b04b47143b815561e97bb5e9
-      internalID: -1126333869
+      spriteID: 83efecc98e1976d48a6ce4c914c88c60
+      internalID: 1177719737
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: purpleEnemy_11
+      name: Level2Boss_11
       rect:
         serializedVersion: 2
         x: 704
@@ -362,8 +362,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47ff0548c22b163409a941657f597c9b
-      internalID: -1171904337
+      spriteID: 7f70dc74a581a7c4db708bdb575fa6b5
+      internalID: 1853174997
       vertices: []
       indices: 
       edges: []
@@ -379,18 +379,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      purpleEnemy_4: -214529533
-      purpleEnemy_2: 857542111
-      purpleEnemy_6: -396401981
-      purpleEnemy_7: -246974993
-      purpleEnemy_11: -1171904337
-      purpleEnemy_8: -582551649
-      purpleEnemy_0: -1477959379
-      purpleEnemy_3: 1604430463
-      purpleEnemy_10: -1126333869
-      purpleEnemy_9: 2018708963
-      purpleEnemy_5: -1316071674
-      purpleEnemy_1: 865580067
+      Level2Boss_1: -1987937085
+      Level2Boss_8: 138877590
+      Level2Boss_9: -1290720681
+      Level2Boss_0: -1560428625
+      Level2Boss_11: 1853174997
+      Level2Boss_10: 1177719737
+      Level2Boss_6: 2059702036
+      Level2Boss_7: -1969674739
+      Level2Boss_3: 885724946
+      Level2Boss_4: -1362118745
+      Level2Boss_5: 429036282
+      Level2Boss_2: -338476015
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

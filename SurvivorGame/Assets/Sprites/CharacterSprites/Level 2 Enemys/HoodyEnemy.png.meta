@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e3fc4a5b2aa8646459f078fec643e65b
+guid: 4d9c3c784e60fe04eae3861ea81b8045
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,7 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: purpleEnemy_0
+      name: HoodyEnemy_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,14 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b22dbf21e0fcdf4e95bb09ea423bc1e
-      internalID: -1477959379
+      spriteID: 80f32ebc33007c6428fd994f9e9f7e9c
+      internalID: 2126380944
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: purpleEnemy_1
+      name: HoodyEnemy_1
       rect:
         serializedVersion: 2
         x: 64
@@ -152,14 +152,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d735c76bfcfbb2446a2322e6b74590c3
-      internalID: 865580067
+      spriteID: f86a8d9e108593b4bb21f303592b0169
+      internalID: -1735024136
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: purpleEnemy_2
+      name: HoodyEnemy_2
       rect:
         serializedVersion: 2
         x: 128
@@ -173,14 +173,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9ae95d832d71df4082f595b23cf07cf
-      internalID: 857542111
+      spriteID: 37004083f59efb4439c080d3f86ea0f8
+      internalID: -985078096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: purpleEnemy_3
+      name: HoodyEnemy_3
       rect:
         serializedVersion: 2
         x: 192
@@ -194,14 +194,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5675ae047a29654a82362e1ba65e35f
-      internalID: 1604430463
+      spriteID: 7231ada563dbfa2448bef225448f2453
+      internalID: 2069595597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: purpleEnemy_4
+      name: HoodyEnemy_4
       rect:
         serializedVersion: 2
         x: 256
@@ -215,14 +215,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52e71d61f8def6848bb1ca945d721867
-      internalID: -214529533
+      spriteID: 35a5d0b55ee979b408ef4fd2767aaeba
+      internalID: 733089733
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: purpleEnemy_5
+      name: HoodyEnemy_5
       rect:
         serializedVersion: 2
         x: 320
@@ -236,14 +236,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff7bac4b1c611df42b1ff991e59af491
-      internalID: -1316071674
+      spriteID: 0f536ee954b82f1409fadae47d5aeafd
+      internalID: -1180232390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: purpleEnemy_6
+      name: HoodyEnemy_6
       rect:
         serializedVersion: 2
         x: 384
@@ -257,14 +257,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2a7535c48c7b3c4db549a6dd83f4806
-      internalID: -396401981
+      spriteID: 0a1bd58421ea8a0419b9d6a8b8e03f44
+      internalID: 994687572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: purpleEnemy_7
+      name: HoodyEnemy_7
       rect:
         serializedVersion: 2
         x: 448
@@ -278,14 +278,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d77ac535203858408aedf70cd8d6a78
-      internalID: -246974993
+      spriteID: 3c87dde28a6857545958faa9a19812dc
+      internalID: -111602300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: purpleEnemy_8
+      name: HoodyEnemy_8
       rect:
         serializedVersion: 2
         x: 512
@@ -299,14 +299,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 833d0e6c18828154594f74d5fc58d9c8
-      internalID: -582551649
+      spriteID: 836227c3e9137114d9c0f4ec5499eb33
+      internalID: 40543026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: purpleEnemy_9
+      name: HoodyEnemy_9
       rect:
         serializedVersion: 2
         x: 576
@@ -320,14 +320,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd52ba961b1d97847bee104ca82bf786
-      internalID: 2018708963
+      spriteID: e8bf6af101b00094381c5b13d55de316
+      internalID: -2091012780
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: purpleEnemy_10
+      name: HoodyEnemy_10
       rect:
         serializedVersion: 2
         x: 640
@@ -341,14 +341,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 536117f1b04b47143b815561e97bb5e9
-      internalID: -1126333869
+      spriteID: d3ac51cbe4c091642945553d0136d138
+      internalID: -1246570443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: purpleEnemy_11
+      name: HoodyEnemy_11
       rect:
         serializedVersion: 2
         x: 704
@@ -362,8 +362,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47ff0548c22b163409a941657f597c9b
-      internalID: -1171904337
+      spriteID: 9640745dcda4cc54e80cb8b0469d5399
+      internalID: -1843135781
       vertices: []
       indices: 
       edges: []
@@ -379,18 +379,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      purpleEnemy_4: -214529533
-      purpleEnemy_2: 857542111
-      purpleEnemy_6: -396401981
-      purpleEnemy_7: -246974993
-      purpleEnemy_11: -1171904337
-      purpleEnemy_8: -582551649
-      purpleEnemy_0: -1477959379
-      purpleEnemy_3: 1604430463
-      purpleEnemy_10: -1126333869
-      purpleEnemy_9: 2018708963
-      purpleEnemy_5: -1316071674
-      purpleEnemy_1: 865580067
+      HoodyEnemy_7: -111602300
+      HoodyEnemy_5: -1180232390
+      HoodyEnemy_6: 994687572
+      HoodyEnemy_8: 40543026
+      HoodyEnemy_0: 2126380944
+      HoodyEnemy_1: -1735024136
+      HoodyEnemy_10: -1246570443
+      HoodyEnemy_11: -1843135781
+      HoodyEnemy_2: -985078096
+      HoodyEnemy_3: 2069595597
+      HoodyEnemy_4: 733089733
+      HoodyEnemy_9: -2091012780
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
