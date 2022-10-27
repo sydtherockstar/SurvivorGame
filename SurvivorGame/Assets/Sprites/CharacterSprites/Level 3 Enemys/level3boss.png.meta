@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: aa8fd8ca6af537346967e14662eb56af
+guid: 14cfea3ff7c2035498340697bae55f90
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,7 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: star enemy_0
+      name: level3boss_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,14 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5dbd9c8408c5d04391105dc14a6486a
-      internalID: -254925991
+      spriteID: 1b56dff10a3bfee478b7afd90f71eb03
+      internalID: 267140822
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_1
+      name: level3boss_1
       rect:
         serializedVersion: 2
         x: 64
@@ -152,14 +152,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82b9f737e4837de44908d7e9ab85fa73
-      internalID: 1164724712
+      spriteID: 9d0e5426db3aa1640b3d001169c12ce0
+      internalID: 1690647518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_2
+      name: level3boss_2
       rect:
         serializedVersion: 2
         x: 128
@@ -173,14 +173,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e8428533a6535c4d9df2809ce6bd515
-      internalID: -1776539047
+      spriteID: 623146876149f734aa27103ca367c571
+      internalID: -1178783056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_3
+      name: level3boss_3
       rect:
         serializedVersion: 2
         x: 192
@@ -194,14 +194,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64d9c90175bb11c4fa6c1d5183d93eee
-      internalID: 970542106
+      spriteID: 77af0c1973bc544489edc16cf5df5dd9
+      internalID: -1247729573
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_4
+      name: level3boss_4
       rect:
         serializedVersion: 2
         x: 256
@@ -215,14 +215,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d684ecf65887604b9b2437ab093eee1
-      internalID: -244991561
+      spriteID: 9d475585171c4724cbf48430bd3c8878
+      internalID: 1366614307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_5
+      name: level3boss_5
       rect:
         serializedVersion: 2
         x: 320
@@ -236,14 +236,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ffe966a8423a46478b8c924a60aaa6e
-      internalID: -319877284
+      spriteID: 0ab767b0e7d52724a870ba57589394b3
+      internalID: 1652318297
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_6
+      name: level3boss_6
       rect:
         serializedVersion: 2
         x: 384
@@ -257,14 +257,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48f03d1fc73a81a40b4675a87db63dfa
-      internalID: -1438260625
+      spriteID: caeb1c5de074c514ebc1636cbb3485ed
+      internalID: 301202847
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_7
+      name: level3boss_7
       rect:
         serializedVersion: 2
         x: 448
@@ -278,14 +278,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aefd2769c39ad384bb394adaba39401e
-      internalID: 384473330
+      spriteID: e85171f3245d0564184f0777edd187f8
+      internalID: -305786241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_8
+      name: level3boss_8
       rect:
         serializedVersion: 2
         x: 512
@@ -299,14 +299,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0fd8b4d81f508d843b4ee107eba533fa
-      internalID: 1642774104
+      spriteID: 81fe59bdfd75ec54780aeed70e08afe1
+      internalID: -1589925780
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_9
+      name: level3boss_9
       rect:
         serializedVersion: 2
         x: 576
@@ -320,14 +320,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d12ba3c7a593454c9307bf4c7c68f86
-      internalID: -100209385
+      spriteID: 6d0d285efe55cd1418b74bf897b5e916
+      internalID: 1721968949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_10
+      name: level3boss_10
       rect:
         serializedVersion: 2
         x: 640
@@ -341,14 +341,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3b4ed53011650b46b46135e7e414488
-      internalID: -1693161856
+      spriteID: 9c63ba45a51e2c84ea7be16678dae1a4
+      internalID: 723307694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_11
+      name: level3boss_11
       rect:
         serializedVersion: 2
         x: 704
@@ -362,8 +362,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ee407f3f6ec1314a8a2d48f3b581169
-      internalID: -1046957825
+      spriteID: 04606621eb183e34494d8425439dc364
+      internalID: 1985847550
       vertices: []
       indices: 
       edges: []
@@ -379,18 +379,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      star enemy_6: -1438260625
-      star enemy_2: -1776539047
-      star enemy_9: -100209385
-      star enemy_4: -244991561
-      star enemy_5: -319877284
-      star enemy_8: 1642774104
-      star enemy_10: -1693161856
-      star enemy_11: -1046957825
-      star enemy_7: 384473330
-      star enemy_3: 970542106
-      star enemy_0: -254925991
-      star enemy_1: 1164724712
+      level3boss_8: -1589925780
+      level3boss_1: 1690647518
+      level3boss_9: 1721968949
+      level3boss_10: 723307694
+      level3boss_11: 1985847550
+      level3boss_4: 1366614307
+      level3boss_5: 1652318297
+      level3boss_6: 301202847
+      level3boss_2: -1178783056
+      level3boss_3: -1247729573
+      level3boss_7: -305786241
+      level3boss_0: 267140822
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

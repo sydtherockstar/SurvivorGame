@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: aa8fd8ca6af537346967e14662eb56af
+guid: c18381273c83ef2439bb58e35337bcc2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,7 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: star enemy_0
+      name: the eye movement_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,14 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5dbd9c8408c5d04391105dc14a6486a
-      internalID: -254925991
+      spriteID: 5e8678cd797ccd64abe9ae71c6125af1
+      internalID: -580577832
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_1
+      name: the eye movement_1
       rect:
         serializedVersion: 2
         x: 64
@@ -152,14 +152,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82b9f737e4837de44908d7e9ab85fa73
-      internalID: 1164724712
+      spriteID: cfc32497e15792643972862d1d7de09e
+      internalID: 1664189620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_2
+      name: the eye movement_2
       rect:
         serializedVersion: 2
         x: 128
@@ -173,14 +173,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e8428533a6535c4d9df2809ce6bd515
-      internalID: -1776539047
+      spriteID: 55873dbf5863df34f905a0dd093c097c
+      internalID: -155487985
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_3
+      name: the eye movement_3
       rect:
         serializedVersion: 2
         x: 192
@@ -194,14 +194,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64d9c90175bb11c4fa6c1d5183d93eee
-      internalID: 970542106
+      spriteID: 492de2eae8400f44d87d4c08be96e654
+      internalID: 435299752
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_4
+      name: the eye movement_4
       rect:
         serializedVersion: 2
         x: 256
@@ -215,155 +215,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d684ecf65887604b9b2437ab093eee1
-      internalID: -244991561
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: star enemy_5
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ffe966a8423a46478b8c924a60aaa6e
-      internalID: -319877284
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: star enemy_6
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 48f03d1fc73a81a40b4675a87db63dfa
-      internalID: -1438260625
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: star enemy_7
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aefd2769c39ad384bb394adaba39401e
-      internalID: 384473330
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: star enemy_8
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0fd8b4d81f508d843b4ee107eba533fa
-      internalID: 1642774104
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: star enemy_9
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0d12ba3c7a593454c9307bf4c7c68f86
-      internalID: -100209385
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: star enemy_10
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d3b4ed53011650b46b46135e7e414488
-      internalID: -1693161856
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: star enemy_11
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ee407f3f6ec1314a8a2d48f3b581169
-      internalID: -1046957825
+      spriteID: 4e714826a4212ed42b4703f36b3ccdd7
+      internalID: 986963922
       vertices: []
       indices: 
       edges: []
@@ -379,18 +232,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      star enemy_6: -1438260625
-      star enemy_2: -1776539047
-      star enemy_9: -100209385
-      star enemy_4: -244991561
-      star enemy_5: -319877284
-      star enemy_8: 1642774104
-      star enemy_10: -1693161856
-      star enemy_11: -1046957825
-      star enemy_7: 384473330
-      star enemy_3: 970542106
-      star enemy_0: -254925991
-      star enemy_1: 1164724712
+      the eye movement_3: 435299752
+      the eye movement_0: -580577832
+      the eye movement_4: 986963922
+      the eye movement_2: -155487985
+      the eye movement_1: 1664189620
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: aa8fd8ca6af537346967e14662eb56af
+guid: 10518022bfcb59a44a140568d26bfb9d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,7 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: star enemy_0
+      name: blueball Enemy_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,14 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5dbd9c8408c5d04391105dc14a6486a
-      internalID: -254925991
+      spriteID: 25bceef1731f8004f8eedff4f6e157bf
+      internalID: -774492783
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_1
+      name: blueball Enemy_1
       rect:
         serializedVersion: 2
         x: 64
@@ -152,14 +152,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82b9f737e4837de44908d7e9ab85fa73
-      internalID: 1164724712
+      spriteID: 1b16aef760a2f554c8010471afdaae1c
+      internalID: -1234546707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_2
+      name: blueball Enemy_2
       rect:
         serializedVersion: 2
         x: 128
@@ -173,14 +173,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e8428533a6535c4d9df2809ce6bd515
-      internalID: -1776539047
+      spriteID: 396632f40a74d4240b5ff6eaaacadadf
+      internalID: -65780043
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_3
+      name: blueball Enemy_3
       rect:
         serializedVersion: 2
         x: 192
@@ -194,14 +194,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64d9c90175bb11c4fa6c1d5183d93eee
-      internalID: 970542106
+      spriteID: ccd53a0aa448c514f99274687b2c8ca5
+      internalID: -111377222
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_4
+      name: blueball Enemy_4
       rect:
         serializedVersion: 2
         x: 256
@@ -215,14 +215,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d684ecf65887604b9b2437ab093eee1
-      internalID: -244991561
+      spriteID: 43058ccb71097ef4ea1b5da5d4ab499d
+      internalID: -1535441368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_5
+      name: blueball Enemy_5
       rect:
         serializedVersion: 2
         x: 320
@@ -236,14 +236,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ffe966a8423a46478b8c924a60aaa6e
-      internalID: -319877284
+      spriteID: f0058613cad7ae940ab0c9978642067d
+      internalID: 1131045839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_6
+      name: blueball Enemy_6
       rect:
         serializedVersion: 2
         x: 384
@@ -257,14 +257,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48f03d1fc73a81a40b4675a87db63dfa
-      internalID: -1438260625
+      spriteID: 8483daacbbec0c34e9dfd96c4e9e771c
+      internalID: -1724553807
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_7
+      name: blueball Enemy_7
       rect:
         serializedVersion: 2
         x: 448
@@ -278,14 +278,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aefd2769c39ad384bb394adaba39401e
-      internalID: 384473330
+      spriteID: d33a61165d46b0941b247f2ebddcf5b2
+      internalID: 1401251026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_8
+      name: blueball Enemy_8
       rect:
         serializedVersion: 2
         x: 512
@@ -299,14 +299,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0fd8b4d81f508d843b4ee107eba533fa
-      internalID: 1642774104
+      spriteID: 44830f786c5cf544a829e7999774e4ff
+      internalID: -1027268615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_9
+      name: blueball Enemy_9
       rect:
         serializedVersion: 2
         x: 576
@@ -320,14 +320,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d12ba3c7a593454c9307bf4c7c68f86
-      internalID: -100209385
+      spriteID: e4d3d93b835646a45bd71683125779e8
+      internalID: -794459834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_10
+      name: blueball Enemy_10
       rect:
         serializedVersion: 2
         x: 640
@@ -341,14 +341,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3b4ed53011650b46b46135e7e414488
-      internalID: -1693161856
+      spriteID: d9f251aaa23e65a4f9a20fbd1ba2aea3
+      internalID: 2099034041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_11
+      name: blueball Enemy_11
       rect:
         serializedVersion: 2
         x: 704
@@ -362,8 +362,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ee407f3f6ec1314a8a2d48f3b581169
-      internalID: -1046957825
+      spriteID: 0ec8cc827b2812144a6fb84b3225ac5f
+      internalID: 1932802848
       vertices: []
       indices: 
       edges: []
@@ -379,18 +379,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      star enemy_6: -1438260625
-      star enemy_2: -1776539047
-      star enemy_9: -100209385
-      star enemy_4: -244991561
-      star enemy_5: -319877284
-      star enemy_8: 1642774104
-      star enemy_10: -1693161856
-      star enemy_11: -1046957825
-      star enemy_7: 384473330
-      star enemy_3: 970542106
-      star enemy_0: -254925991
-      star enemy_1: 1164724712
+      blueball Enemy_10: 2099034041
+      blueball Enemy_3: -111377222
+      blueball Enemy_0: -774492783
+      blueball Enemy_8: -1027268615
+      blueball Enemy_4: -1535441368
+      blueball Enemy_2: -65780043
+      blueball Enemy_9: -794459834
+      blueball Enemy_5: 1131045839
+      blueball Enemy_7: 1401251026
+      blueball Enemy_6: -1724553807
+      blueball Enemy_11: 1932802848
+      blueball Enemy_1: -1234546707
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
