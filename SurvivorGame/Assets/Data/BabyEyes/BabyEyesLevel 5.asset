@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 949aaf0ae170ffc4f8803860a3281903, type: 3}
-  m_Name: BeamLevel5
+  m_Name: BabyEyesLevel 5
   m_EditorClassIdentifier: 
   upgradeType: 0
-  Name: Level5
+  Name: Baby Eyes Level 5
   description: 
-  icon: {fileID: 21300000, guid: cef348aa24efedb489ced5a194e2fb18, type: 3}
-  spellData: {fileID: 11400000, guid: 7eb71115f30b6e34ca3f40e08b735e37, type: 2}
+  icon: {fileID: 21300000, guid: 06ffc5f9cd0a82e4d8d70b6eb77a645f, type: 3}
+  spellData: {fileID: 11400000, guid: 48d4bfe59f831f14d9e6b17b8caf934a, type: 2}
   spellUpgradeStats:
-    damage: 3
-    timeToAttack: -0.2
+    damage: 2
+    timeToAttack: -0.1
     numberOfAttack: 0
-    scale: {x: 0.5, y: 0.5, z: 0}
+    scale: {x: 0.2, y: 0.2, z: 0}
   passiveItem: {fileID: 0}
   passiveUpgradeStats:
     armor: 0

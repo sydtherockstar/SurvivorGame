@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82292c5f507563c43988a5e833a2a6c2, type: 3}
+  m_Name: BabyEyes
+  m_EditorClassIdentifier: 
+  Name: Baby Eye
+  spellStats:
+    damage: 15
+    timeToAttack: 2
+    numberOfAttack: 1
+    scale: {x: 1, y: 1, z: 0}
+  spellBasePrefab: {fileID: 6274846524045690800, guid: bd9d13949ef420b4489360bf8c99cd75, type: 3}
+  upgrades:
+  - {fileID: 11400000, guid: 604b918608d24574b8fa07d878318e5d, type: 2}
+  - {fileID: 11400000, guid: 1d4c17fc343f0f446a109e34f901ebf2, type: 2}
+  - {fileID: 11400000, guid: 1335cf8867f065f4aa176b61590237a7, type: 2}
+  - {fileID: 11400000, guid: 46bd13bbe4c7e0d48b946f5b8440953c, type: 2}

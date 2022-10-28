@@ -7,7 +7,7 @@ public abstract class SpellBase : MonoBehaviour
     public SpellSO spellData;
     public SpellStats spellStats; 
     public PlayerProperties pP;
-    GameObject player;
+    public GameObject player;
     private void Awake() {
         player = GameObject.Find("Player");
         pP = player.GetComponent<PlayerProperties>();
