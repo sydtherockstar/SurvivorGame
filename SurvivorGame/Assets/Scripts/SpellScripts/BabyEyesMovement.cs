@@ -6,7 +6,7 @@ public class BabyEyesMovement : MonoBehaviour
 {
     public float moveSpeed;
     public int spellDamage;
-    [SerializeField] float lifeTime;
+    public float lifeTime;
     GameObject player;
     private void Awake() {
         player = GameObject.Find("Shooter");
