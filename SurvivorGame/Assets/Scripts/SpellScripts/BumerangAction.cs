@@ -6,7 +6,7 @@ public class BumerangAction : MonoBehaviour
 {
     public float moveSpeed;
     public int spellDamage;
-    [SerializeField] float lifeTime;
+    public float lifeTime;
     [SerializeField] int hitCount;
     EnemyRadar enemyRadar;
     Vector3 targetDirection;

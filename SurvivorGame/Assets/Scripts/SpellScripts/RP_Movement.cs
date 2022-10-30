@@ -6,7 +6,7 @@ public class RP_Movement : MonoBehaviour
 {
     public float moveSpeed;
     public int spellDamage;
-    [SerializeField] float lifeTime;
+    public float lifeTime;
     [SerializeField] int hitCount;
     Rigidbody2D rb2d;
     GameObject player;

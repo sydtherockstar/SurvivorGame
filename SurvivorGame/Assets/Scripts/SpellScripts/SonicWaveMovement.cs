@@ -6,7 +6,7 @@ public class SonicWaveMovement : MonoBehaviour
 {
 public float moveSpeed;
     public int spellDamage;
-    [SerializeField] float lifeTime;
+    public float lifeTime;
     [SerializeField] int hitCount;
     GameObject player;
     PlayerMovement pM;

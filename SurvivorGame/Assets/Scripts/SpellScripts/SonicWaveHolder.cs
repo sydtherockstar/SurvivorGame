@@ -32,7 +32,8 @@ public class SonicWaveHolder : SpellBase
             }
             sonicWave.GetComponent<SonicWaveMovement>().spellDamage = spellStats.damage + pP.baseDamage;
             sonicWave.GetComponent<SonicWaveMovement>().moveSpeed = spellStats.speed + pP.spellSpeed;
-            sonicWave.transform.localScale += pP.spellScale;
+            sonicWave.GetComponent<SonicWaveMovement>().lifeTime = spellStats.duration;
+            sonicWave.transform.localScale = spellStats.scale + pP.spellScale;
         }
     }
     public override void Disable(){}

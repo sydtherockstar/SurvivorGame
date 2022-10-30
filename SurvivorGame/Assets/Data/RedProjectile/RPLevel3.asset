@@ -20,9 +20,9 @@ MonoBehaviour:
   spellUpgradeStats:
     damage: 2
     speed: 1
-    timeToAttack: 0
+    timeToAttack: -0.1
     duration: 0
-    numberOfAttack: 0
+    numberOfAttack: 1
     scale: {x: 0.1, y: 0.1, z: 0}
   passiveItem: {fileID: 0}
   passiveUpgradeStats:

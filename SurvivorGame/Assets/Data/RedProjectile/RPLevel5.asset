@@ -22,7 +22,7 @@ MonoBehaviour:
     speed: 1
     timeToAttack: -0.3
     duration: 0
-    numberOfAttack: 0
+    numberOfAttack: 1
     scale: {x: 0, y: 0, z: 0}
   passiveItem: {fileID: 0}
   passiveUpgradeStats:
