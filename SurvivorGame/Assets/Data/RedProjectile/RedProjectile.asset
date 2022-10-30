@@ -15,7 +15,9 @@ MonoBehaviour:
   Name: RedProjectile
   spellStats:
     damage: 10
+    speed: 8
     timeToAttack: 2
+    duration: 5
     numberOfAttack: 1
     scale: {x: 0.7, y: 0.7, z: 0}
   spellBasePrefab: {fileID: 4711105877172009325, guid: ae3c396f4dea02e46b0549aeef148d9e, type: 3}

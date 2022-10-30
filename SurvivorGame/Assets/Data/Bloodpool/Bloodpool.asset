@@ -15,7 +15,9 @@ MonoBehaviour:
   Name: Bloodpool
   spellStats:
     damage: 15
-    timeToAttack: 1.2
+    speed: 0
+    timeToAttack: 3
+    duration: 2
     numberOfAttack: 0
     scale: {x: 5, y: 5, z: 0}
   spellBasePrefab: {fileID: 7957195208343423174, guid: 4d8063a39e0e06b4cb74d2e1084c10a6, type: 3}

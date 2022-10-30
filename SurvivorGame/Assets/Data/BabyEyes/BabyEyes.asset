@@ -15,7 +15,9 @@ MonoBehaviour:
   Name: Baby Eye
   spellStats:
     damage: 15
-    timeToAttack: 2
+    speed: 100
+    timeToAttack: 5
+    duration: 3
     numberOfAttack: 1
     scale: {x: 1, y: 1, z: 0}
   spellBasePrefab: {fileID: 6274846524045690800, guid: bd9d13949ef420b4489360bf8c99cd75, type: 3}

@@ -19,7 +19,9 @@ MonoBehaviour:
   spellData: {fileID: 11400000, guid: 48d4bfe59f831f14d9e6b17b8caf934a, type: 2}
   spellUpgradeStats:
     damage: 2
-    timeToAttack: -0.1
+    speed: 100
+    timeToAttack: -0.2
+    duration: 0.2
     numberOfAttack: 1
     scale: {x: 0.2, y: 0.2, z: 0}
   passiveItem: {fileID: 0}
