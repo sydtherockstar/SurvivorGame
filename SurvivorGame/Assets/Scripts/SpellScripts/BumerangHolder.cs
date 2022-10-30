@@ -7,7 +7,6 @@ public class BumerangHolder : SpellBase
 {
     [SerializeField] GameObject bumerangPrefab;
     [SerializeField] float spread = 0.5f;
-    float radius = 0f;
 
     public override void Attack()
     {
@@ -26,10 +25,6 @@ public class BumerangHolder : SpellBase
             bumerang.GetComponent<BumerangAction>().moveSpeed = spellStats.speed + pP.spellSpeed;
             bumerang.transform.localScale += pP.spellScale;
         }
-    }
-     private float GetAngleRadius(int angle){
-        double angleRadius = radius * Math.Cos(angle * (Math.PI / 180));
-        return (float)angleRadius;
     }
     public override void Disable(){}
 }
