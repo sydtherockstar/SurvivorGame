@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3252b959ab54eb94bb98f87a936ac6ed
+guid: 882dbe5f57b5c704ba8aa51b855a40ee
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,7 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: star enemy_0
+      name: strange enemy_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,14 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a655682d76cc54846ad9c4f688c1b31a
-      internalID: -1161052109
+      spriteID: 02e72471644eee64096e306115be5347
+      internalID: 1882223223
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_1
+      name: strange enemy_1
       rect:
         serializedVersion: 2
         x: 64
@@ -152,14 +152,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 425ce01a748a261478beca8406514956
-      internalID: 2073243856
+      spriteID: 3015f1d9de8f00c40960c48e2d018fbd
+      internalID: 1790291192
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_2
+      name: strange enemy_2
       rect:
         serializedVersion: 2
         x: 128
@@ -173,14 +173,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 354d07eb3b76fc947b30dc5a7d67eeb7
-      internalID: -701450256
+      spriteID: a33139a4b103f4d4ba2f84d49b1b74d6
+      internalID: 1379121503
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_3
+      name: strange enemy_3
       rect:
         serializedVersion: 2
         x: 192
@@ -194,14 +194,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f680ed0d07a2e74587b6a4262337d80
-      internalID: -1787004128
+      spriteID: 91563e760596db14f8ddfde0f52bf6b3
+      internalID: 1284204377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_4
+      name: strange enemy_4
       rect:
         serializedVersion: 2
         x: 256
@@ -215,14 +215,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66603580f64d01b41a2cb65a575b050e
-      internalID: 1995847689
+      spriteID: aee6b0a9f7dfc914893cdc526ab891f2
+      internalID: 1586336843
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_5
+      name: strange enemy_5
       rect:
         serializedVersion: 2
         x: 320
@@ -236,14 +236,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2812937ec1a6e3740bdafd5206a7c174
-      internalID: 1749654278
+      spriteID: af314fc6faaaf474099d4fdc1ee04b91
+      internalID: -101397196
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_6
+      name: strange enemy_6
       rect:
         serializedVersion: 2
         x: 384
@@ -257,14 +257,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2471bfd523b1c5e42b32d4bb1ed309b0
-      internalID: -173556141
+      spriteID: a1a98a0c82affbc4ebb6b2c91ee6024f
+      internalID: -1837966851
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_7
+      name: strange enemy_7
       rect:
         serializedVersion: 2
         x: 448
@@ -278,14 +278,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c534c9e7fff0a4447a47c17ac5b274ae
-      internalID: 1254165900
+      spriteID: d5835eedef143ee46ae0beea45cccd79
+      internalID: 1640248781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_8
+      name: strange enemy_8
       rect:
         serializedVersion: 2
         x: 512
@@ -299,14 +299,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf254c5d2636aeb4ea004536c3107ca9
-      internalID: -666114281
+      spriteID: 539336e70303e1b4084d5126141feb39
+      internalID: 140447080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_9
+      name: strange enemy_9
       rect:
         serializedVersion: 2
         x: 576
@@ -320,14 +320,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4da3c490878fca246923c121e8599bc3
-      internalID: 1479065308
+      spriteID: 93c2b9ac78f0c69468c648972950d289
+      internalID: -874994082
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_10
+      name: strange enemy_10
       rect:
         serializedVersion: 2
         x: 640
@@ -341,14 +341,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c96dbfb82448c6f46944c5b384d930e0
-      internalID: -618527224
+      spriteID: 28860c6f63b40484fbfaab02f92eec93
+      internalID: 30800184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_11
+      name: strange enemy_11
       rect:
         serializedVersion: 2
         x: 704
@@ -362,8 +362,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13f688668d4b7104cbb49ebcde193bd7
-      internalID: 1961019220
+      spriteID: d8f4b8f33b9851546b54664dab2e01f9
+      internalID: 699438126
       vertices: []
       indices: 
       edges: []
@@ -379,18 +379,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      star enemy_6: -173556141
-      star enemy_2: -701450256
-      star enemy_9: 1479065308
-      star enemy_4: 1995847689
-      star enemy_5: 1749654278
-      star enemy_8: -666114281
-      star enemy_10: -618527224
-      star enemy_11: 1961019220
-      star enemy_7: 1254165900
-      star enemy_3: -1787004128
-      star enemy_0: -1161052109
-      star enemy_1: 2073243856
+      strange enemy_3: 1284204377
+      strange enemy_10: 30800184
+      strange enemy_6: -1837966851
+      strange enemy_8: 140447080
+      strange enemy_11: 699438126
+      strange enemy_1: 1790291192
+      strange enemy_0: 1882223223
+      strange enemy_5: -101397196
+      strange enemy_9: -874994082
+      strange enemy_7: 1640248781
+      strange enemy_4: 1586336843
+      strange enemy_2: 1379121503
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3252b959ab54eb94bb98f87a936ac6ed
+guid: eab09788ddba4e542ab3100e9123c80a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,7 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: star enemy_0
+      name: sharfly enemy_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,14 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a655682d76cc54846ad9c4f688c1b31a
-      internalID: -1161052109
+      spriteID: a24254ecd4ebf434abe5a631bb68f8af
+      internalID: 1817684222
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_1
+      name: sharfly enemy_1
       rect:
         serializedVersion: 2
         x: 64
@@ -152,14 +152,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 425ce01a748a261478beca8406514956
-      internalID: 2073243856
+      spriteID: b4535b3bd04d8c44fa5d5cc05548ba68
+      internalID: -1625490012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_2
+      name: sharfly enemy_2
       rect:
         serializedVersion: 2
         x: 128
@@ -173,14 +173,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 354d07eb3b76fc947b30dc5a7d67eeb7
-      internalID: -701450256
+      spriteID: 1dffc30efc0da294a8bf66aacb502652
+      internalID: -720603876
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_3
+      name: sharfly enemy_3
       rect:
         serializedVersion: 2
         x: 192
@@ -194,14 +194,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f680ed0d07a2e74587b6a4262337d80
-      internalID: -1787004128
+      spriteID: 3c0c336da37009b42a8c3a646509aeea
+      internalID: -145938167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_4
+      name: sharfly enemy_4
       rect:
         serializedVersion: 2
         x: 256
@@ -215,14 +215,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66603580f64d01b41a2cb65a575b050e
-      internalID: 1995847689
+      spriteID: df547a5ae3273384e800b6290dbc246e
+      internalID: -1546628127
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_5
+      name: sharfly enemy_5
       rect:
         serializedVersion: 2
         x: 320
@@ -236,14 +236,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2812937ec1a6e3740bdafd5206a7c174
-      internalID: 1749654278
+      spriteID: 9b33d2b7ee1c5034684c67be24de7f4c
+      internalID: -1181434825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_6
+      name: sharfly enemy_6
       rect:
         serializedVersion: 2
         x: 384
@@ -257,14 +257,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2471bfd523b1c5e42b32d4bb1ed309b0
-      internalID: -173556141
+      spriteID: 6685f46bcd8f8a245a737d0cd1427831
+      internalID: 318357694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_7
+      name: sharfly enemy_7
       rect:
         serializedVersion: 2
         x: 448
@@ -278,14 +278,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c534c9e7fff0a4447a47c17ac5b274ae
-      internalID: 1254165900
+      spriteID: 4fe5f85e417612d4ba3368c4ea602907
+      internalID: -541979023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_8
+      name: sharfly enemy_8
       rect:
         serializedVersion: 2
         x: 512
@@ -299,14 +299,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf254c5d2636aeb4ea004536c3107ca9
-      internalID: -666114281
+      spriteID: f837c4c559f54f64bb110b924dbc5b8e
+      internalID: 341495797
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_9
+      name: sharfly enemy_9
       rect:
         serializedVersion: 2
         x: 576
@@ -320,14 +320,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4da3c490878fca246923c121e8599bc3
-      internalID: 1479065308
+      spriteID: d344c846d4d870a46860da9399bce3b3
+      internalID: -1557916477
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_10
+      name: sharfly enemy_10
       rect:
         serializedVersion: 2
         x: 640
@@ -341,14 +341,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c96dbfb82448c6f46944c5b384d930e0
-      internalID: -618527224
+      spriteID: 405c329871deb7f4aa61492947a5d58a
+      internalID: -923926531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: star enemy_11
+      name: sharfly enemy_11
       rect:
         serializedVersion: 2
         x: 704
@@ -362,8 +362,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13f688668d4b7104cbb49ebcde193bd7
-      internalID: 1961019220
+      spriteID: 13d83cf5b9176a14c8b7a6f20196f8db
+      internalID: 973678122
       vertices: []
       indices: 
       edges: []
@@ -379,18 +379,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      star enemy_6: -173556141
-      star enemy_2: -701450256
-      star enemy_9: 1479065308
-      star enemy_4: 1995847689
-      star enemy_5: 1749654278
-      star enemy_8: -666114281
-      star enemy_10: -618527224
-      star enemy_11: 1961019220
-      star enemy_7: 1254165900
-      star enemy_3: -1787004128
-      star enemy_0: -1161052109
-      star enemy_1: 2073243856
+      sharfly enemy_4: -1546628127
+      sharfly enemy_8: 341495797
+      sharfly enemy_0: 1817684222
+      sharfly enemy_3: -145938167
+      sharfly enemy_10: -923926531
+      sharfly enemy_1: -1625490012
+      sharfly enemy_11: 973678122
+      sharfly enemy_6: 318357694
+      sharfly enemy_2: -720603876
+      sharfly enemy_7: -541979023
+      sharfly enemy_9: -1557916477
+      sharfly enemy_5: -1181434825
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
