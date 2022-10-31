@@ -47,8 +47,13 @@ MonoBehaviour:
   spellData: {fileID: 11400000, guid: 0b4637d6ff04454418da02de3021c742, type: 2}
   spellStats:
     damage: 0
+    speed: 0
     timeToAttack: 0
+    duration: 0
     numberOfAttack: 0
+    scale: {x: 0, y: 0, z: 0}
+  player: {fileID: 0}
   pP: {fileID: 0}
+  pM: {fileID: 0}
   bumerangPrefab: {fileID: 4161159609583527188, guid: 8641d7e0fe980204dab8c7efaa85b519, type: 3}
-  spread: 0.5
+  spread: 0.1
