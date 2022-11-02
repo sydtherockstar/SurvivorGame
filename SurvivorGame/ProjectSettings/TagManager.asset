@@ -52,6 +52,9 @@ TagManager:
   - name: Environment
     uniqueID: 3479100463
     locked: 0
+  - name: No light
+    uniqueID: 3799633883
+    locked: 0
   - name: Player
     uniqueID: 1490573437
     locked: 0
