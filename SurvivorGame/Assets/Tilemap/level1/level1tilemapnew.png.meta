@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d139241c5cd3f06488533b80ebcbfd94
+guid: 9ae4fdb4c9e4b364d80b5ccf4850e9bd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,7 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: level1 tilw map new_0
+      name: level1tilemapnew_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,14 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae752a0ce8c0cc94f8b6cc45f13482e4
-      internalID: 813322440
+      spriteID: 3cc283a477e3658479158d398e8d73d3
+      internalID: -1791078413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: level1 tilw map new_1
+      name: level1tilemapnew_1
       rect:
         serializedVersion: 2
         x: 64
@@ -152,14 +152,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07636a9c12ac44241aae03de9b179548
-      internalID: -2107569419
+      spriteID: adc1a0b8e27673641bb0975b714a7251
+      internalID: 859954702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: level1 tilw map new_2
+      name: level1tilemapnew_2
       rect:
         serializedVersion: 2
         x: 128
@@ -173,14 +173,56 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: feb807cde23a13b489af14f852958bb0
-      internalID: 230308056
+      spriteID: d6963c2126eba0340993372a9758d267
+      internalID: -239471222
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: level1 tilw map new_3
+      name: level1tilemapnew_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14e8e50ad108a1408820377512034fc
+      internalID: -550411890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level1tilemapnew_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887eeb6890521a0498370ea518167f9c
+      internalID: -571201643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level1tilemapnew_5
       rect:
         serializedVersion: 2
         x: 0
@@ -194,14 +236,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e6a153a873f3bf468fe6d78aa49a716
-      internalID: -1462932439
+      spriteID: 209288d9dc951fd44808b33c275e4777
+      internalID: 1716658641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: level1 tilw map new_4
+      name: level1tilemapnew_6
       rect:
         serializedVersion: 2
         x: 64
@@ -215,14 +257,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ae8df856323ff24eb130cbcc4387665
-      internalID: 80907293
+      spriteID: 81dba41a72ac1d74da91244808aa4f30
+      internalID: 1106863398
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: level1 tilw map new_5
+      name: level1tilemapnew_7
       rect:
         serializedVersion: 2
         x: 128
@@ -236,14 +278,56 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13308d1074f8d5748bdb9f070ca9f86d
-      internalID: 1367816066
+      spriteID: 09d676fed7431284396631a2c48017a4
+      internalID: 1112817374
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: level1 tilw map new_6
+      name: level1tilemapnew_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764842f00c4e26045817cd090d185c0e
+      internalID: 1511419938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level1tilemapnew_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64ff3bff5af20642a705d34438a713c
+      internalID: -1382519019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level1tilemapnew_10
       rect:
         serializedVersion: 2
         x: 0
@@ -257,14 +341,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b63fd8e25e7c804da61df2c330e7cad
-      internalID: -1713597342
+      spriteID: e6022118fda112e4bb136aea6a7ae4ab
+      internalID: -2132382832
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: level1 tilw map new_7
+      name: level1tilemapnew_11
       rect:
         serializedVersion: 2
         x: 64
@@ -278,14 +362,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a4874b154326b0438f09370f8f882b1
-      internalID: 1839898350
+      spriteID: b9047b0810eb0f643a1a6fbdabe857ce
+      internalID: -1177140197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: level1 tilw map new_8
+      name: level1tilemapnew_12
       rect:
         serializedVersion: 2
         x: 128
@@ -299,14 +383,56 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9546818493571b843ad2be8c40f2e601
-      internalID: -697773209
+      spriteID: 86cfea1b9cfddcf4db83d61cdc913d23
+      internalID: -273421507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: level1 tilw map new_9
+      name: level1tilemapnew_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24101cfeeb73907458a023710b4288ed
+      internalID: 1148275181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level1tilemapnew_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9169b2c1e07ae6489c88f1531ad2d20
+      internalID: 703591124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level1tilemapnew_15
       rect:
         serializedVersion: 2
         x: 0
@@ -320,14 +446,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10576b4f76ac9e94887c884e7af6a045
-      internalID: -2069230907
+      spriteID: 6b1d2fb6e4584d64aba5c685fe36e133
+      internalID: -1461912723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: level1 tilw map new_10
+      name: level1tilemapnew_16
       rect:
         serializedVersion: 2
         x: 64
@@ -341,14 +467,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e92783fc6ae73549ab0b433a5b66806
-      internalID: 1633964301
+      spriteID: 5831a0b0d73ed314cbde4e74f3debfd3
+      internalID: -927329329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: level1 tilw map new_11
+      name: level1tilemapnew_17
       rect:
         serializedVersion: 2
         x: 128
@@ -362,14 +488,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dda45745ee9eefd45a9537878c8f2c6c
-      internalID: 1087648318
+      spriteID: f1ac60d56475d0b44bb304f6aab66dad
+      internalID: -2016476149
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: level1 tilw map new_12
+      name: level1tilemapnew_18
       rect:
         serializedVersion: 2
         x: 0
@@ -383,14 +509,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3dc063764c160746a5af30fbeb6dba2
-      internalID: -75226113
+      spriteID: aad8a8f4947ea114782a32db3092e70c
+      internalID: 1359180235
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: level1 tilw map new_13
+      name: level1tilemapnew_19
       rect:
         serializedVersion: 2
         x: 64
@@ -404,14 +530,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e2d31c422f693446a35e22a33e510cf
-      internalID: 1779416063
+      spriteID: cc102a1e04ac0794bb48267f09689a32
+      internalID: 948514299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: level1 tilw map new_14
+      name: level1tilemapnew_20
       rect:
         serializedVersion: 2
         x: 128
@@ -425,14 +551,77 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43edab96ad5aa4847be39e72ae684911
-      internalID: -1698406665
+      spriteID: 803669aa5f6d920468fb3b57594c3593
+      internalID: 2006720230
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: level1 tilw map new_15
+      name: level1tilemapnew_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490c21349cbc8274cb86ea5f33de9de7
+      internalID: -625277342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level1tilemapnew_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff819ce7d4660f45a16e09e3d54ab34
+      internalID: 1231554815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level1tilemapnew_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769deed8e6d8b744da66b07b6cbb53ce
+      internalID: 239357962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level1tilemapnew_24
       rect:
         serializedVersion: 2
         x: 0
@@ -446,14 +635,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7893a6e2312a5f14e88aecc7163b58b8
-      internalID: -560207217
+      spriteID: e46bb66d6b101e64f8c68248ee262700
+      internalID: -1951270419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: level1 tilw map new_16
+      name: level1tilemapnew_25
       rect:
         serializedVersion: 2
         x: 64
@@ -467,14 +656,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c50483b4f2f5bf84aba6068deaf3fffb
-      internalID: 1535505111
+      spriteID: 3640508e1c7f79d439b3ce325d14cb91
+      internalID: 416713772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: level1 tilw map new_17
+      name: level1tilemapnew_26
       rect:
         serializedVersion: 2
         x: 128
@@ -488,8 +677,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d96b0cb70f26ff4b80dac50fde26cc0
-      internalID: 675895170
+      spriteID: a98d4c069d0f5384a9811166bc601953
+      internalID: 1807889626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level1tilemapnew_27
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3aaf9640b50a164899049b763c006f9
+      internalID: -1857581947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level1tilemapnew_28
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a3889ea1c043948a77ba7d96e08e8b
+      internalID: -1276539470
       vertices: []
       indices: 
       edges: []
@@ -505,24 +736,35 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      level1 tilw map new_1: -2107569419
-      level1 tilw map new_7: 1839898350
-      level1 tilw map new_9: -2069230907
-      level1 tilw map new_6: -1713597342
-      level1 tilw map new_11: 1087648318
-      level1 tilw map new_8: -697773209
-      level1 tilw map new_13: 1779416063
-      level1 tilw map new_17: 675895170
-      level1 tilw map new_2: 230308056
-      level1 tilw map new_5: 1367816066
-      level1 tilw map new_15: -560207217
-      level1 tilw map new_10: 1633964301
-      level1 tilw map new_4: 80907293
-      level1 tilw map new_14: -1698406665
-      level1 tilw map new_0: 813322440
-      level1 tilw map new_3: -1462932439
-      level1 tilw map new_16: 1535505111
-      level1 tilw map new_12: -75226113
+      level1tilemapnew_0: -1791078413
+      level1tilemapnew_7: 1112817374
+      level1tilemapnew_20: 2006720230
+      level1tilemapnew_2: -239471222
+      level1tilemapnew_24: -1951270419
+      level1tilemapnew_25: 416713772
+      level1tilemapnew_12: -273421507
+      level1tilemapnew_5: 1716658641
+      level1tilemapnew_13: 1148275181
+      level1tilemapnew_6: 1106863398
+      level1tilemapnew_3: -550411890
+      level1tilemapnew_18: 1359180235
+      level1tilemapnew_21: -625277342
+      level1tilemapnew_11: -1177140197
+      level1tilemapnew_23: 239357962
+      level1tilemapnew_22: 1231554815
+      level1tilemapnew_28: -1276539470
+      level1tilemapnew_26: 1807889626
+      level1tilemapnew_4: -571201643
+      level1tilemapnew_16: -927329329
+      level1tilemapnew_10: -2132382832
+      level1tilemapnew_8: 1511419938
+      level1tilemapnew_17: -2016476149
+      level1tilemapnew_15: -1461912723
+      level1tilemapnew_1: 859954702
+      level1tilemapnew_14: 703591124
+      level1tilemapnew_27: -1857581947
+      level1tilemapnew_9: -1382519019
+      level1tilemapnew_19: 948514299
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
