@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82292c5f507563c43988a5e833a2a6c2, type: 3}
+  m_Name: Tentacle
+  m_EditorClassIdentifier: 
+  Name: Tentacle
+  spellStats:
+    damage: 15
+    speed: 0
+    timeToAttack: 1.5
+    duration: 0.5
+    numberOfAttack: 1
+    scale: {x: 2, y: 2, z: 0}
+  spellBasePrefab: {fileID: 3954038807077097156, guid: b74f06e95354f014eaad4f47f185a52b, type: 3}
+  upgrades:
+  - {fileID: 11400000, guid: 8ac15a844576f8244ae0df1203be052a, type: 2}
+  - {fileID: 11400000, guid: e61ee6f323c28f149aea08fe961059f0, type: 2}
+  - {fileID: 11400000, guid: 329adf3657fa3044fb59d75556e9bfbf, type: 2}
+  - {fileID: 11400000, guid: 3b5f5be7973fdb34ca1d38ee0714388b, type: 2}

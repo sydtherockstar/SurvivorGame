@@ -10,12 +10,12 @@ public class BumerangAction : MonoBehaviour
     [SerializeField] int hitCount;
     EnemyRadar enemyRadar;
     Vector3 targetDirection;
-
-     private void Awake() {
-        enemyRadar = GetComponent<EnemyRadar>();
+    
+    private void Awake() {
+        enemyRadar = FindObjectOfType<EnemyRadar>();
     }
     private void Start() {
-        targetDirection = (GetComponent<EnemyRadar>().FindClosestEnemy().position - transform.position).normalized;
+        targetDirection = (enemyRadar.FindClosestEnemy().position - transform.position).normalized;
     }
     void Update()
     {
@@ -29,7 +29,7 @@ public class BumerangAction : MonoBehaviour
         InterfaceDamagable e = other.GetComponent<InterfaceDamagable>();
         if(e != null){
             e.TakeDamage(spellDamage);
-            targetDirection = (GetComponent<EnemyRadar>().FindSecondClosestEnemy().position - transform.position).normalized;
+            targetDirection = (enemyRadar.FindSecondClosestEnemy().position - transform.position).normalized;
             hitCount -= 1;
             if(hitCount == 0){
                 Destroy(gameObject);

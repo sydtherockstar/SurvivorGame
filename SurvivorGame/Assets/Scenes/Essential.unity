@@ -6628,7 +6628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b28b52cf3be51eb4a9cd49753db20c78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 3
+  moveSpeed: 10
 --- !u!4 &2042215689
 Transform:
   m_ObjectHideFlags: 0
@@ -6755,10 +6755,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   experienceBar: {fileID: 606479616}
   upgradePanel: {fileID: 959382232}
-  upgrades:
-  - {fileID: 11400000, guid: b92d0a2f0ec680e4ea049c234b9a0f6f, type: 2}
-  - {fileID: 11400000, guid: d5dc7cb1f25d64e44a0b3f99d08dc7f2, type: 2}
-  - {fileID: 11400000, guid: 7fa132f585cc01d409d0d73f74cee059, type: 2}
+  upgrades: []
   acquiredUpgrades: []
 --- !u!114 &2042215696
 MonoBehaviour:
@@ -6813,7 +6810,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spellContainer: {fileID: 2122021103}
-  startingSpell: {fileID: 11400000, guid: 0b4637d6ff04454418da02de3021c742, type: 2}
+  startingSpell: {fileID: 11400000, guid: d3a3c58059baf9444a3c154a215af05f, type: 2}
 --- !u!114 &2042215700
 MonoBehaviour:
   m_ObjectHideFlags: 0
