@@ -16,6 +16,7 @@ public class SantaWaterAction : MonoBehaviour
     }
     void Start()
     {
+        this.GetComponent<Collider2D>().enabled = false;
         randomEnemy = Random.insideUnitCircle * 10;
     }
 
@@ -36,6 +37,7 @@ public class SantaWaterAction : MonoBehaviour
         }
     }
     IEnumerator LifeTimeExecute(){
+        this.GetComponent<Collider2D>().enabled = true;
         lifeTime -= Time.deltaTime;
         if(lifeTime <= 0){
             Destroy(gameObject);

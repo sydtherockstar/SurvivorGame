@@ -6,7 +6,7 @@ public class LevelTimer : MonoBehaviour
 {
     public float timer;
     TimerUI timerUI;
-    private void Awake() {
+    private void Start() {
         timerUI = FindObjectOfType<TimerUI>();
     }
     private void Update() {
