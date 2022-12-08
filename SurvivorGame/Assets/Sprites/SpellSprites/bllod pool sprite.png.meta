@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ff4ced6154d3e84439c7851f1959ab5e
+guid: 8d1f5c7f350699c4bae5886f8841ab06
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -63,7 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -129,7 +129,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: raven sprite_0
+      name: bllod pool sprite_0
       rect:
         serializedVersion: 2
         x: 0
@@ -143,14 +143,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7877515e4c2ebce439a1d89ba0885858
-      internalID: -835631606
+      spriteID: 97753340a03d06341862a5b1ef5b5d93
+      internalID: -389711484
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: raven sprite_1
+      name: bllod pool sprite_1
       rect:
         serializedVersion: 2
         x: 64
@@ -164,14 +164,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca2a03d77ef318d4cae273918b105a1e
-      internalID: -1876357585
+      spriteID: f6ff8767b382b0647a05edeb46764dd8
+      internalID: 666169847
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: raven sprite_2
+      name: bllod pool sprite_2
       rect:
         serializedVersion: 2
         x: 128
@@ -185,14 +185,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 101d3f6f804cfa249a95e209619bd675
-      internalID: -1930037794
+      spriteID: b145d88a4ee233846909863f5caca0e1
+      internalID: -1402611312
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: raven sprite_3
+      name: bllod pool sprite_3
       rect:
         serializedVersion: 2
         x: 192
@@ -206,14 +206,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d040025661ea184419a677ef86e6fb43
-      internalID: 2138618834
+      spriteID: 046d2771ecea38e4c8ce784fa99cc236
+      internalID: 1470160616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: raven sprite_4
+      name: bllod pool sprite_4
       rect:
         serializedVersion: 2
         x: 256
@@ -227,14 +227,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 284ec53785df6cd489065a5c7cc8a767
-      internalID: 1317154461
+      spriteID: 0270a97129d59394cbde9f2546474b71
+      internalID: -1872274726
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: raven sprite_5
+      name: bllod pool sprite_5
       rect:
         serializedVersion: 2
         x: 320
@@ -248,14 +248,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 004fe3c0a3a606a4aa818778e953460b
-      internalID: -727841050
+      spriteID: ff42d9c2b94da7b41b5e4e54d6ce1826
+      internalID: 1966333640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: raven sprite_6
+      name: bllod pool sprite_6
       rect:
         serializedVersion: 2
         x: 384
@@ -269,14 +269,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1389d4001c0dbe64a886f38e98f1b6fd
-      internalID: -145062841
+      spriteID: a74d2f0fb62b9af46a15bca6569a8bda
+      internalID: -405830238
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: raven sprite_7
+      name: bllod pool sprite_7
       rect:
         serializedVersion: 2
         x: 448
@@ -290,14 +290,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd3cb5a27195e934bb9310a16df7fdf3
-      internalID: 1221042017
+      spriteID: b09e53ac9c6155f49a02cb70a2734925
+      internalID: 197942993
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: raven sprite_8
+      name: bllod pool sprite_8
       rect:
         serializedVersion: 2
         x: 512
@@ -311,14 +311,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b11939219db79324b8225068f1e4ed89
-      internalID: -444088418
+      spriteID: e1677b2cb92bad545a3372c3f9e5dd75
+      internalID: -1994832589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: raven sprite_9
+      name: bllod pool sprite_9
       rect:
         serializedVersion: 2
         x: 576
@@ -332,14 +332,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 917c1a5bccf2a8e4badfa64a90cd7889
-      internalID: 341642191
+      spriteID: 53bb79b643c53814fa9232b9ca0d2385
+      internalID: -1626423494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: raven sprite_10
+      name: bllod pool sprite_10
       rect:
         serializedVersion: 2
         x: 640
@@ -353,14 +353,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab5b40e7921415c4089a94ec754f14c7
-      internalID: 1385115332
+      spriteID: 650339aaff6de52479c5cbf9e455dc36
+      internalID: 526684348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: raven sprite_11
+      name: bllod pool sprite_11
       rect:
         serializedVersion: 2
         x: 704
@@ -374,8 +374,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e914d843ee74374d81009f95fb242d8
-      internalID: -425321590
+      spriteID: 94bfac8bcb5fc414a85dbe962559b0d2
+      internalID: -128639455
       vertices: []
       indices: 
       edges: []
@@ -391,18 +391,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      raven sprite_11: -425321590
-      raven sprite_2: -1930037794
-      raven sprite_8: -444088418
-      raven sprite_9: 341642191
-      raven sprite_5: -727841050
-      raven sprite_4: 1317154461
-      raven sprite_1: -1876357585
-      raven sprite_6: -145062841
-      raven sprite_10: 1385115332
-      raven sprite_7: 1221042017
-      raven sprite_3: 2138618834
-      raven sprite_0: -835631606
+      bllod pool sprite_10: 526684348
+      bllod pool sprite_5: 1966333640
+      bllod pool sprite_0: -389711484
+      bllod pool sprite_7: 197942993
+      bllod pool sprite_8: -1994832589
+      bllod pool sprite_1: 666169847
+      bllod pool sprite_11: -128639455
+      bllod pool sprite_3: 1470160616
+      bllod pool sprite_2: -1402611312
+      bllod pool sprite_4: -1872274726
+      bllod pool sprite_9: -1626423494
+      bllod pool sprite_6: -405830238
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

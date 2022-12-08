@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a8a91e87341f66b41ba1004b3e40c876
+guid: 31b6edb23861dd243b7e7d328b55ab15
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -129,7 +129,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tentical x sprite-sheet_0
+      name: suicide bomber bug sprite_0
       rect:
         serializedVersion: 2
         x: 0
@@ -143,14 +143,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edaa0d6a94a23d0408060b2f6a6aebda
-      internalID: 1507618753
+      spriteID: f04fbd13b13c16b49803389c02110759
+      internalID: -973990755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tentical x sprite-sheet_1
+      name: suicide bomber bug sprite_1
       rect:
         serializedVersion: 2
         x: 64
@@ -164,14 +164,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a17b30f4f37f0a4bb8387bed2a27c7b
-      internalID: 1659418001
+      spriteID: a763f1393ff4edf46af6d68a6971e5ed
+      internalID: 1330027513
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tentical x sprite-sheet_2
+      name: suicide bomber bug sprite_2
       rect:
         serializedVersion: 2
         x: 128
@@ -185,8 +185,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08b6790a3ae220e438b03501e85bd480
-      internalID: 2023194746
+      spriteID: 38a5b66f5d64ba449825ba414feb296b
+      internalID: 1615191187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suicide bomber bug sprite_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462b98dcd4410c44ba2cd3a74a305442
+      internalID: 1491504498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suicide bomber bug sprite_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a240db2886f7c2a4795f8d242105a5f0
+      internalID: -1397604157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suicide bomber bug sprite_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359e6e57a8d1bb34885b4a9bb716b2b1
+      internalID: 1485197350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suicide bomber bug sprite_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: febc898462428cd49b0076a7324b078f
+      internalID: 5445563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suicide bomber bug sprite_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e077356ff5b9fdb49a1037ddf41596bd
+      internalID: -260797821
       vertices: []
       indices: 
       edges: []
@@ -202,9 +307,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      tentical x sprite-sheet_2: 2023194746
-      tentical x sprite-sheet_0: 1507618753
-      tentical x sprite-sheet_1: 1659418001
+      suicide bomber bug sprite_4: -1397604157
+      suicide bomber bug sprite_1: 1330027513
+      suicide bomber bug sprite_0: -973990755
+      suicide bomber bug sprite_5: 1485197350
+      suicide bomber bug sprite_7: -260797821
+      suicide bomber bug sprite_3: 1491504498
+      suicide bomber bug sprite_2: 1615191187
+      suicide bomber bug sprite_6: 5445563
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

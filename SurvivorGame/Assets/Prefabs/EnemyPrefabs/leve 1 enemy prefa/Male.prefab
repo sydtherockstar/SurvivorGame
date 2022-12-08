@@ -30,7 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4340549912808828170}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.23999998, y: -2.72, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -174,5 +174,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3a831d9d047f63498ea0fe7baf04f4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  droppingObject: {fileID: 7423431607096184324, guid: 7cd713c36d8e2f7499f7c980bb6e12bd, type: 3}
+  droppingObject: {fileID: 0}
   dropChance: 1

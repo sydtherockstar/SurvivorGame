@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7db5bf96ddcdfcd4f85d3e4bff795f07
+guid: ad1a3a87ca10c314a84eb24130ec6db3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -63,7 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -102,11 +102,23 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Windows Store Apps
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -122,8 +134,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 86
-        height: 41
+        width: 88
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,8 +143,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a433fee122413347a357413c79064a3
-      internalID: 1671883944
+      spriteID: 183bc34966bff4346aefc239f1ee7fd5
+      internalID: 1800249898
       vertices: []
       indices: 
       edges: []
@@ -143,8 +155,8 @@ TextureImporter:
         serializedVersion: 2
         x: 88
         y: 0
-        width: 86
-        height: 41
+        width: 88
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,8 +164,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f34ac40f6e67e54caa5b1fc97c694d3
-      internalID: -1130607071
+      spriteID: dbd9de06ec45ad944b4cdfb66c04d111
+      internalID: 1635837973
       vertices: []
       indices: 
       edges: []
@@ -164,8 +176,8 @@ TextureImporter:
         serializedVersion: 2
         x: 176
         y: 0
-        width: 86
-        height: 41
+        width: 88
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,8 +185,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e18d32155ec65e04a878942388eac9de
-      internalID: -304025951
+      spriteID: 0fb15064cbceed74cafe158a6e93ab12
+      internalID: 1314991638
       vertices: []
       indices: 
       edges: []
@@ -190,9 +202,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      fire projectyle sprite_2: -304025951
-      fire projectyle sprite_1: -1130607071
-      fire projectyle sprite_0: 1671883944
+      fire projectyle sprite_2: 1314991638
+      fire projectyle sprite_1: 1635837973
+      fire projectyle sprite_0: 1800249898
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

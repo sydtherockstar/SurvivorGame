@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a8a91e87341f66b41ba1004b3e40c876
+guid: 0aa38630a7bbe3044a9359269c82d105
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -129,7 +129,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tentical x sprite-sheet_0
+      name: santa water sprite_0
       rect:
         serializedVersion: 2
         x: 0
@@ -143,14 +143,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edaa0d6a94a23d0408060b2f6a6aebda
-      internalID: 1507618753
+      spriteID: 779ac7de90a4541449e782f96945210b
+      internalID: -263261408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tentical x sprite-sheet_1
+      name: santa water sprite_1
       rect:
         serializedVersion: 2
         x: 64
@@ -164,14 +164,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a17b30f4f37f0a4bb8387bed2a27c7b
-      internalID: 1659418001
+      spriteID: 3497237107bc818489d4be9c1c8505bf
+      internalID: -749247146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tentical x sprite-sheet_2
+      name: santa water sprite_2
       rect:
         serializedVersion: 2
         x: 128
@@ -185,8 +185,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08b6790a3ae220e438b03501e85bd480
-      internalID: 2023194746
+      spriteID: c35292d69e8b5014d912a70ec5b43f3e
+      internalID: -481019696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: santa water sprite_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7958248d982a99498c154dfe4d8a3c9
+      internalID: 993296044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: santa water sprite_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a6c87aaa298264f877d1589faab004
+      internalID: -797566307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: santa water sprite_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8bd168a1eae7a6419c729459a2ffc3e
+      internalID: -1497686414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: santa water sprite_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c94f043eca68c343aabee697f76b231
+      internalID: 422699276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: santa water sprite_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9272d74849fbd49966a99140b1a699
+      internalID: -1832275412
       vertices: []
       indices: 
       edges: []
@@ -202,9 +307,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      tentical x sprite-sheet_2: 2023194746
-      tentical x sprite-sheet_0: 1507618753
-      tentical x sprite-sheet_1: 1659418001
+      santa water sprite_5: -1497686414
+      santa water sprite_3: 993296044
+      santa water sprite_4: -797566307
+      santa water sprite_1: -749247146
+      santa water sprite_2: -481019696
+      santa water sprite_0: -263261408
+      santa water sprite_7: -1832275412
+      santa water sprite_6: 422699276
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
