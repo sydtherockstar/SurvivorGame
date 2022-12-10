@@ -332,6 +332,7 @@ GameObject:
   - component: {fileID: 521768451}
   - component: {fileID: 521768452}
   - component: {fileID: 521768453}
+  - component: {fileID: 521768454}
   m_Layer: 0
   m_Name: World
   m_TagString: Untagged
@@ -421,6 +422,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stageData: {fileID: 11400000, guid: 68280ba22ca777c4d9fad3e02f93f3af, type: 2}
   enemySpawner: {fileID: 2061248086}
+--- !u!114 &521768454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521768448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eafe893b51d96548a74b631f8738d5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelCompleteTimer: 12
 --- !u!1 &807052444
 GameObject:
   m_ObjectHideFlags: 0

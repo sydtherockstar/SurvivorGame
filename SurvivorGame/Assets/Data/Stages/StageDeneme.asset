@@ -13,23 +13,23 @@ MonoBehaviour:
   m_Name: StageDeneme
   m_EditorClassIdentifier: 
   stageEvents:
-  - time: 10
+  - time: 2
     message: on
     enemyToSpawn: {fileID: 5232673545994343096, guid: c249f872c69c771499ee870fb162d75e, type: 3}
     enemyCount: 10
-  - time: 20
+  - time: 5
     message: yirmi
     enemyToSpawn: {fileID: 5232673545994343096, guid: c249f872c69c771499ee870fb162d75e, type: 3}
     enemyCount: 20
-  - time: 30
+  - time: 10
     message: otuz
     enemyToSpawn: {fileID: 5232673545994343096, guid: c249f872c69c771499ee870fb162d75e, type: 3}
     enemyCount: 30
-  - time: 40
+  - time: 15
     message: "k\u0131rk"
     enemyToSpawn: {fileID: 5232673545994343096, guid: c249f872c69c771499ee870fb162d75e, type: 3}
     enemyCount: 40
-  - time: 40
+  - time: 20
     message: "k\u0131rk"
     enemyToSpawn: {fileID: 5232673545994343096, guid: c249f872c69c771499ee870fb162d75e, type: 3}
     enemyCount: 40

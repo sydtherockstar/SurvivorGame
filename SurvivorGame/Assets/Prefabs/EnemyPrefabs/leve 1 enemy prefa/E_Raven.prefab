@@ -174,5 +174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3a831d9d047f63498ea0fe7baf04f4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  droppingObject: {fileID: 7423431607096184324, guid: a9a63b05cff0ddc4aa1a447115977dbe, type: 3}
-  dropChance: 0
+  droppingObject:
+  - {fileID: 7423431607096184324, guid: 144dd3baa1fd1284ca4cc41483ce8a8e, type: 3}
+  - {fileID: 7423431607096184324, guid: 7cd713c36d8e2f7499f7c980bb6e12bd, type: 3}
+  dropChance: 1

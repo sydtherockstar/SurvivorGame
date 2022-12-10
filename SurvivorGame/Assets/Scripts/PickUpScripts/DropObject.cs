@@ -4,11 +4,18 @@ using UnityEngine;
 
 public class DropObject : MonoBehaviour
 {
-    [SerializeField] GameObject droppingObject;
+    [SerializeField] List<GameObject> droppingObject;
     [SerializeField] [Range(0f,1f)] float dropChance = 1f;
+    bool isQuit = false; 
+
+    private void OnApplicationQuit() {
+        isQuit = true;
+    }
     private void OnDestroy() {
+        if(isQuit) { return; }
         if(Random.value < dropChance){
-        Instantiate(droppingObject, transform.position, Quaternion.identity);
+        GameObject dropObject = droppingObject[Random.Range(0, droppingObject.Count)];
+        Instantiate(dropObject, transform.position, Quaternion.identity);
         }
     }
 }
