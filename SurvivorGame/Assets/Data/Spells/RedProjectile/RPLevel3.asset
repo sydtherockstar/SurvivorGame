@@ -15,7 +15,7 @@ MonoBehaviour:
   upgradeType: 0
   Name: Level3
   description: 
-  icon: {fileID: 21300000, guid: 44e0e5e3669b9274ab3a084eb08d2039, type: 3}
+  icon: {fileID: 21300000, guid: b1ae50ca04030a845be56dc9186b3746, type: 3}
   spellData: {fileID: 11400000, guid: 0d918d03f67e3ff4c883a83109f7eab3, type: 2}
   spellUpgradeStats:
     damage: 2

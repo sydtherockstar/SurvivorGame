@@ -4,10 +4,16 @@ using UnityEngine;
 
 public class BloodpoolAction : SpellBase
 {
+    GameObject bloodpoolContainer;
+    private void Start() {
+        bloodpoolContainer = GameObject.FindGameObjectWithTag("Player");
+        this.transform.parent = bloodpoolContainer.transform;
+    }
     public int spellDamage;
     private void OnTriggerEnter2D(Collider2D other) {
         InterfaceDamagable e = other.GetComponent<InterfaceDamagable>();
         if(e != null){
+            DamagePopup.instance.PostMessage(spellDamage.ToString(), other.transform.position);
             e.TakeDamage(spellDamage);
         }
     }

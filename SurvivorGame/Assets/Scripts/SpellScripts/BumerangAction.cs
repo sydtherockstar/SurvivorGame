@@ -28,6 +28,7 @@ public class BumerangAction : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other) {
         InterfaceDamagable e = other.GetComponent<InterfaceDamagable>();
         if(e != null){
+            DamagePopup.instance.PostMessage(spellDamage.ToString(), other.transform.position);
             e.TakeDamage(spellDamage);
             targetDirection = (enemyRadar.FindSecondClosestEnemy().position - transform.position).normalized;
             hitCount -= 1;

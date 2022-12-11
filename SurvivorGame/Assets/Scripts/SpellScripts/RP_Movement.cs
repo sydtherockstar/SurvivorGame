@@ -30,6 +30,7 @@ public class RP_Movement : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other) {
         InterfaceDamagable e = other.GetComponent<InterfaceDamagable>();
             if(e != null){
+                DamagePopup.instance.PostMessage(spellDamage.ToString(), other.transform.position);
                 e.TakeDamage(spellDamage);
                 hitCount -= 1;
                 if(hitCount == 0){

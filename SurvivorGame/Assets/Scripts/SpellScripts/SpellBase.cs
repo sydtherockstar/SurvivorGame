@@ -13,7 +13,7 @@ public abstract class SpellBase : MonoBehaviour
     public PlayerProperties pP;
     [HideInInspector]
     public PlayerMovement pM;
-    float timer = 0.1f;
+    float timer = 1f;
     
     private void Awake() {
         player = GameObject.FindGameObjectWithTag("Player");

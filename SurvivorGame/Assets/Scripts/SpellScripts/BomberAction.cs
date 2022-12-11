@@ -47,6 +47,7 @@ public class BomberAction : MonoBehaviour
         InterfaceDamagable e = other.GetComponent<InterfaceDamagable>();
             if(e != null){
                 animator.SetTrigger("isExplode");
+                DamagePopup.instance.PostMessage(spellDamage.ToString(), other.transform.position);
                 e.TakeDamage(spellDamage);
                 Invoke("DestroyGO", 0.4f);
         }

@@ -143,8 +143,8 @@ Rigidbody2D:
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_SleepingMode: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!114 &5232673545994343096
 MonoBehaviour:
@@ -158,8 +158,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8463d28d958104b9932164da7cd81e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
-  hp: 15
+  moveSpeed: 0
+  hp: 150
   damage: 1
   experience: 300
 --- !u!114 &7330674136260431941
@@ -177,4 +177,4 @@ MonoBehaviour:
   droppingObject:
   - {fileID: 7423431607096184324, guid: 144dd3baa1fd1284ca4cc41483ce8a8e, type: 3}
   - {fileID: 7423431607096184324, guid: 7cd713c36d8e2f7499f7c980bb6e12bd, type: 3}
-  dropChance: 1
+  dropChance: 0.05

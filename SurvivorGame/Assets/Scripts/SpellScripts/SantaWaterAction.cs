@@ -17,7 +17,7 @@ public class SantaWaterAction : MonoBehaviour
     void Start()
     {
         this.GetComponent<Collider2D>().enabled = false;
-        randomEnemy = Random.insideUnitCircle * 10;
+        randomEnemy = Random.insideUnitCircle * 15;
     }
 
     void Update()
@@ -33,6 +33,7 @@ public class SantaWaterAction : MonoBehaviour
     private void OnTriggerStay2D(Collider2D other) {
         InterfaceDamagable e = other.GetComponent<InterfaceDamagable>();
         if(e != null){
+            DamagePopup.instance.PostMessage(spellDamage.ToString(), other.transform.position);
             e.TakeDamage(spellDamage);
         }
     }

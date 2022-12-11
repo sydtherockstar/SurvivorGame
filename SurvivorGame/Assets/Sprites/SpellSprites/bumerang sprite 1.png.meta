@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ad1a3a87ca10c314a84eb24130ec6db3
+guid: d82fa4e5b2175f24ca7ec25d7116e735
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -102,7 +102,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -113,29 +113,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fire projectyle sprite_0
+      name: bumerang sprite 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 88
-        height: 42
+        x: 15
+        y: 15
+        width: 21
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 183bc34966bff4346aefc239f1ee7fd5
-      internalID: 1800249898
+      spriteID: 47711b181105d0542b8c382c6d4c2825
+      internalID: 286279729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fire projectyle sprite_1
+      name: bumerang sprite 1_1
       rect:
         serializedVersion: 2
-        x: 88
-        y: 0
-        width: 88
-        height: 42
+        x: 83
+        y: 15
+        width: 26
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbd9de06ec45ad944b4cdfb66c04d111
-      internalID: 1635837973
+      spriteID: f802e1b1c8faf364ebe2ca8bdc03003d
+      internalID: -1975988140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fire projectyle sprite_2
+      name: bumerang sprite 1_2
       rect:
         serializedVersion: 2
-        x: 176
-        y: 0
-        width: 88
-        height: 42
+        x: 144
+        y: 22
+        width: 33
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,8 +173,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0fb15064cbceed74cafe158a6e93ab12
-      internalID: 1314991638
+      spriteID: 9c180df2e8dec0a4a9eceda220e22072
+      internalID: 371140387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumerang sprite 1_3
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f92f5bbeddeae409831e4bd458a2f7
+      internalID: -972396693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumerang sprite 1_4
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 17
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052a77edacd9fe3409ea4c03b11031a3
+      internalID: 1356475777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumerang sprite 1_5
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 18
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dfc952248e63da4592a801114d16bcf
+      internalID: -2144448677
       vertices: []
       indices: 
       edges: []
@@ -202,9 +253,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      fire projectyle sprite_2: 1314991638
-      fire projectyle sprite_1: 1635837973
-      fire projectyle sprite_0: 1800249898
+      bumerang sprite 1_4: 1356475777
+      bumerang sprite 1_2: 371140387
+      bumerang sprite 1_1: -1975988140
+      bumerang sprite 1_5: -2144448677
+      bumerang sprite 1_3: -972396693
+      bumerang sprite 1_0: 286279729
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
