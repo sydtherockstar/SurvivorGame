@@ -6,17 +6,9 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour
 {
     [SerializeField] GameObject enemyPrefab;
-    [SerializeField] float spawnTimer;
-    //float timer;
+
     Vector2 maxBound;
     Vector2 minBound;
-    private void Update() {
-        /*timer -= Time.deltaTime;
-        if(timer < 0f){
-            SpawnEnemy();
-            timer = spawnTimer;
-        }*/
-    }
 
     public void SpawnEnemy()
     {
