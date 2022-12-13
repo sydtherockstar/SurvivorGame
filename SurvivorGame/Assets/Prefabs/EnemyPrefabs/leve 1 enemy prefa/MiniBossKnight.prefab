@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 2309259238814458934}
   m_Layer: 0
   m_Name: MiniBossKnight
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -158,9 +158,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8463d28d958104b9932164da7cd81e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
-  hp: 50
-  damage: 5
+  moveSpeed: 1
+  hp: 30
+  damage: 3
   experience: 300
 --- !u!114 &2309259238814458934
 MonoBehaviour:
@@ -176,4 +176,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   droppingObject:
   - {fileID: 0}
-  dropChance: 1
+  dropChance: 0

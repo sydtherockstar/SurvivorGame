@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 6277830063729406682}
   m_Layer: 0
   m_Name: Raven
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: -2010417563
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -835631606, guid: ff4ced6154d3e84439c7851f1959ab5e, type: 3}
+  m_Sprite: {fileID: -1876357585, guid: ff4ced6154d3e84439c7851f1959ab5e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -158,9 +158,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8463d28d958104b9932164da7cd81e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
-  hp: 50
-  damage: 5
+  moveSpeed: 1
+  hp: 30
+  damage: 3
   experience: 300
 --- !u!114 &6277830063729406682
 MonoBehaviour:
@@ -176,4 +176,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   droppingObject:
   - {fileID: 0}
-  dropChance: 1
+  dropChance: 0

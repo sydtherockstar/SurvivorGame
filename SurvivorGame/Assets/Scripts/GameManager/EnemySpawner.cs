@@ -5,12 +5,11 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    [SerializeField] GameObject enemyPrefab;
 
     Vector2 maxBound;
     Vector2 minBound;
 
-    public void SpawnEnemy()
+    public void SpawnEnemy(GameObject enemyPrefab)
     {
         Vector3 spawnPosition = GenerateRandomSpawnPosition();
         Instantiate(enemyPrefab, spawnPosition, Quaternion.identity, transform);

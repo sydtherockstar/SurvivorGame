@@ -22,7 +22,6 @@ public class Enemy : MonoBehaviour, InterfaceDamagable
         targetPlayer = targetGameObject.GetComponent<PlayerProperties>();
     }
     private void FixedUpdate() {
-        if(animator.GetBool("isDamaged") == true) { animator.SetBool("isDamaged", false); }
         Vector3 direction = (targetDestination.position - transform.position).normalized;
         rb2d.velocity = direction * moveSpeed;
     }
@@ -39,15 +38,18 @@ public class Enemy : MonoBehaviour, InterfaceDamagable
          }
     }
     public void TakeDamage(int damage){
-        animator.SetBool("isDamaged", true);
         hp -= damage;
         if(hp <= 0){
-            targetGameObject.GetComponent<Level>().AddExperience(experience);
-            animator.SetTrigger("isDead");
-            Invoke("EnemyDied", 0.7f);
+            EnemyDied();
+        }else{
+            animator.SetBool("isDamaged", true);
         }
     }
     void EnemyDied(){
-        Destroy(gameObject);
+        this.GetComponent<Collider2D>().enabled = false;
+        moveSpeed = 0;
+        damage = 0;
+        animator.SetTrigger("isDead");
+        targetGameObject.GetComponent<Level>().AddExperience(experience);
     }
 }
