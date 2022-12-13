@@ -7525,7 +7525,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1895157367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8541,7 +8541,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spellContainer: {fileID: 2122021103}
-  startingSpell: {fileID: 11400000, guid: 0b4637d6ff04454418da02de3021c742, type: 2}
+  startingSpell: {fileID: 11400000, guid: 0d918d03f67e3ff4c883a83109f7eab3, type: 2}
 --- !u!114 &2042215700
 MonoBehaviour:
   m_ObjectHideFlags: 0
