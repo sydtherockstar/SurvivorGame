@@ -14,12 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   upgradeType: 3
   Name: SpellScaleUnlock
+  description: Increase spell size.
   icon: {fileID: 21300000, guid: 74e215a9239dd4c47b566b3856f8a05b, type: 3}
   spellData: {fileID: 0}
   spellUpgradeStats:
     damage: 0
+    speed: 0
     timeToAttack: 0
+    duration: 0
     numberOfAttack: 0
+    scale: {x: 0, y: 0, z: 0}
   passiveItem: {fileID: 11400000, guid: b46dc6c7f692bea4392fbb29f84ee640, type: 2}
   passiveUpgradeStats:
     armor: 0
@@ -27,5 +31,8 @@ MonoBehaviour:
     baseDamage: 0
     duplicatorCount: 0
     cooldown: 0
-    spellScale: {x: 0, y: 0, z: 0}
+    expUp: 0
+    healthRecovery: 0
+    moveFast: 0
     spellSpeed: 0
+    spellScale: {x: 0, y: 0, z: 0}

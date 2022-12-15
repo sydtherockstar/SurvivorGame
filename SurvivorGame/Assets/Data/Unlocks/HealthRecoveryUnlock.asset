@@ -14,12 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   upgradeType: 3
   Name: Health Recovery Unlock
+  description: Recover health over time.
   icon: {fileID: 21300000, guid: 477aa2fde401d874c89481b96497b571, type: 3}
   spellData: {fileID: 0}
   spellUpgradeStats:
     damage: 0
+    speed: 0
     timeToAttack: 0
+    duration: 0
     numberOfAttack: 0
+    scale: {x: 0, y: 0, z: 0}
   passiveItem: {fileID: 11400000, guid: 70f2c27ceb1a36b4d94fa2a2f5d4069a, type: 2}
   passiveUpgradeStats:
     armor: 0

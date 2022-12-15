@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   upgradeType: 2
   Name: Monster Spit
-  description: 
+  description: Throw a bottle that when cracks damages enemies.
   icon: {fileID: 21300000, guid: e24a06c8aca675541af13772945cc708, type: 3}
   spellData: {fileID: 11400000, guid: ffc786ff713904144914d59e4281f88a, type: 2}
   spellUpgradeStats:

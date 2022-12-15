@@ -14,12 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   upgradeType: 3
   Name: SpellSpeedUnlock
+  description: Projectile speed increase.
   icon: {fileID: 21300000, guid: 391a395add917f0478dee38fdd7c6aa6, type: 3}
   spellData: {fileID: 0}
   spellUpgradeStats:
     damage: 0
+    speed: 0
     timeToAttack: 0
+    duration: 0
     numberOfAttack: 0
+    scale: {x: 0, y: 0, z: 0}
   passiveItem: {fileID: 11400000, guid: f2b52cf301c47e44b9aa5317f7eda5c4, type: 2}
   passiveUpgradeStats:
     armor: 0
@@ -27,5 +31,8 @@ MonoBehaviour:
     baseDamage: 0
     duplicatorCount: 0
     cooldown: 0
-    spellScale: {x: 0, y: 0, z: 0}
+    expUp: 0
+    healthRecovery: 0
+    moveFast: 0
     spellSpeed: 0
+    spellScale: {x: 0, y: 0, z: 0}

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: BabyEyesLevel 3
   m_EditorClassIdentifier: 
   upgradeType: 0
-  Name: Baby Eyes Level 3
-  description: 
+  Name: Level 3
+  description: Base damage up. Area of attack up.
   icon: {fileID: 21300000, guid: 06ffc5f9cd0a82e4d8d70b6eb77a645f, type: 3}
   spellData: {fileID: 11400000, guid: 48d4bfe59f831f14d9e6b17b8caf934a, type: 2}
   spellUpgradeStats:

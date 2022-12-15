@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   upgradeType: 2
   Name: Tentacle Unlock
-  description: 
+  description: Spawn tenticles from ground.
   icon: {fileID: 21300000, guid: f133e2f9ea378cf4a9398b1735f56e9c, type: 3}
   spellData: {fileID: 11400000, guid: d3a3c58059baf9444a3c154a215af05f, type: 2}
   spellUpgradeStats:

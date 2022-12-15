@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   upgradeType: 2
   Name: Beam Unlock
-  description: 
+  description: Fire a blue beam.
   icon: {fileID: 21300000, guid: cef348aa24efedb489ced5a194e2fb18, type: 3}
   spellData: {fileID: 11400000, guid: 7eb71115f30b6e34ca3f40e08b735e37, type: 2}
   spellUpgradeStats:

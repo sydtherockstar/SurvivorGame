@@ -8541,7 +8541,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spellContainer: {fileID: 2122021103}
-  startingSpell: {fileID: 11400000, guid: 0d918d03f67e3ff4c883a83109f7eab3, type: 2}
+  startingSpell: {fileID: 11400000, guid: 7eb71115f30b6e34ca3f40e08b735e37, type: 2}
 --- !u!114 &2042215700
 MonoBehaviour:
   m_ObjectHideFlags: 0
