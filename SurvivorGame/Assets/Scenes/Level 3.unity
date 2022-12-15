@@ -210,7 +210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8c2367c78d1e804ab32d3ad96ef36a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stageData: {fileID: 11400000, guid: 68280ba22ca777c4d9fad3e02f93f3af, type: 2}
+  stageData: {fileID: 11400000, guid: 68932e5579eec2d498d362ffae2923bc, type: 2}
   enemySpawner: {fileID: 375869540}
 --- !u!114 &134210201
 MonoBehaviour:
@@ -238,7 +238,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5976010365144392335, guid: e4d55f94d2fcedb4ab919966ece05981, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5976010365144392335, guid: e4d55f94d2fcedb4ab919966ece05981, type: 3}
       propertyPath: m_LocalPosition.x
@@ -409,8 +409,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3df8d833a92d1094c8b7e85c5b6b4c83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 5232673545994343102, guid: c249f872c69c771499ee870fb162d75e, type: 3}
-  spawnTimer: 1
 --- !u!4 &375869541
 Transform:
   m_ObjectHideFlags: 0
@@ -1183,7 +1181,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3950018149735680363, guid: 9bf9d51a2d6532c4c813511adc0b9223, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3950018149735680363, guid: 9bf9d51a2d6532c4c813511adc0b9223, type: 3}
       propertyPath: m_LocalPosition.x

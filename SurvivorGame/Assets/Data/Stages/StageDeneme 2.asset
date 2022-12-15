@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d5cceac74e43f245bd568a860551ce6, type: 3}
+  m_Name: StageDeneme 2
+  m_EditorClassIdentifier: 
+  stageEvents:
+  - time: 2
+    message: on
+    enemyToSpawn: {fileID: 9209560571373341627, guid: 8a77a80f2e9ed8d428d527132877d18e, type: 3}
+    enemyCount: 10
+  - time: 2
+    message: yirmi
+    enemyToSpawn: {fileID: 2857507215459262671, guid: 7f13ab0a81d81b646a1dd20c16885369, type: 3}
+    enemyCount: 20
+  - time: 10
+    message: otuz
+    enemyToSpawn: {fileID: 798324293123086472, guid: ff2985a09e3129e42a60abd017494635, type: 3}
+    enemyCount: 30
+  - time: 15
+    message: "k\u0131rk"
+    enemyToSpawn: {fileID: 1545218959499660617, guid: 51cce8e43472b1145b19c07d9cb17b43, type: 3}
+    enemyCount: 40
+  - time: 20
+    message: "k\u0131rk"
+    enemyToSpawn: {fileID: 6429638430909890366, guid: 8f346cab8a5c1c24c8cb2c2d29c75cf7, type: 3}
+    enemyCount: 40

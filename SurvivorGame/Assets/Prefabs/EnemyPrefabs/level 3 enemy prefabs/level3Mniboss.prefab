@@ -99,7 +99,7 @@ Animator:
   m_GameObject: {fileID: 9209560571373341627}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 598632c09c224b242b3b27841d35665c, type: 2}
+  m_Controller: {fileID: 9100000, guid: b7bc29ab9bd81cd4c9485bde5b03e883, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -174,5 +174,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3a831d9d047f63498ea0fe7baf04f4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  droppingObject: {fileID: 0}
+  droppingObject:
+  - {fileID: 0}
   dropChance: 1
