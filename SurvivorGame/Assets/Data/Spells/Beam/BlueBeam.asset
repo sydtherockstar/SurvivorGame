@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: BlueBeam
   spellStats:
-    damage: 15
-    timeToAttack: 1.3
-    numberOfAttack: 1
+    damage: 2
+    speed: 0
+    timeToAttack: 1
+    duration: 0
+    numberOfAttack: 0
     scale: {x: 3, y: 2, z: 0}
   spellBasePrefab: {fileID: 164449200044529017, guid: 839248af4d639f64b823b45591bf8514, type: 3}
   upgrades:

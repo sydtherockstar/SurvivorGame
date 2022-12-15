@@ -17,19 +17,19 @@ MonoBehaviour:
     message: on
     enemyToSpawn: {fileID: 8207685217180744293, guid: dc446a14dcc28404e99d0df78ce896db, type: 3}
     enemyCount: 10
-  - time: 5
+  - time: 2
     message: yirmi
-    enemyToSpawn: {fileID: 6277830063729406690, guid: d526a222b7f2ba04e9e943f723ca79ab, type: 3}
+    enemyToSpawn: {fileID: 8207685217180744293, guid: dc446a14dcc28404e99d0df78ce896db, type: 3}
     enemyCount: 20
   - time: 10
     message: otuz
-    enemyToSpawn: {fileID: 4340549912808828170, guid: feadd8019071779469dfbe7b5f621e3a, type: 3}
+    enemyToSpawn: {fileID: 8207685217180744293, guid: dc446a14dcc28404e99d0df78ce896db, type: 3}
     enemyCount: 30
   - time: 15
     message: "k\u0131rk"
-    enemyToSpawn: {fileID: 6147550674058222792, guid: f2130797abeb7ef46a359a7f6e54f800, type: 3}
+    enemyToSpawn: {fileID: 8207685217180744293, guid: dc446a14dcc28404e99d0df78ce896db, type: 3}
     enemyCount: 40
   - time: 20
     message: "k\u0131rk"
-    enemyToSpawn: {fileID: 2126658687878161306, guid: f36649e8ab7f28c44ba0e535e8ee0deb, type: 3}
+    enemyToSpawn: {fileID: 8207685217180744293, guid: dc446a14dcc28404e99d0df78ce896db, type: 3}
     enemyCount: 40

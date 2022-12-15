@@ -18,10 +18,12 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: cef348aa24efedb489ced5a194e2fb18, type: 3}
   spellData: {fileID: 11400000, guid: 7eb71115f30b6e34ca3f40e08b735e37, type: 2}
   spellUpgradeStats:
-    damage: 3
+    damage: 2
+    speed: 0
     timeToAttack: -0.2
-    numberOfAttack: 0
-    scale: {x: 0.5, y: 0.5, z: 0}
+    duration: 0
+    numberOfAttack: 1
+    scale: {x: 2, y: 2, z: 0}
   passiveItem: {fileID: 0}
   passiveUpgradeStats:
     armor: 0
