@@ -502,6 +502,7 @@ GameObject:
   - component: {fileID: 521768452}
   - component: {fileID: 521768453}
   - component: {fileID: 521768454}
+  - component: {fileID: 521768455}
   m_Layer: 0
   m_Name: World
   m_TagString: Untagged
@@ -608,6 +609,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelCompleteTimer: 1200
+--- !u!114 &521768455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521768448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d593bd7429aa3b345b2a507ad7457120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeRate: 0
+  perTime: 0
 --- !u!1 &807052444
 GameObject:
   m_ObjectHideFlags: 0
@@ -1509,6 +1524,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3df8d833a92d1094c8b7e85c5b6b4c83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelSP: {fileID: 521768455}
 --- !u!4 &2061248087
 Transform:
   m_ObjectHideFlags: 0

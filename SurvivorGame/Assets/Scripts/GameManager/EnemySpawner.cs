@@ -8,12 +8,22 @@ public class EnemySpawner : MonoBehaviour
 
     Vector2 maxBound;
     Vector2 minBound;
+    Enemy enemyP;
+    [SerializeField] LevelStageProgress levelSP;
 
     public void SpawnEnemy(GameObject enemyPrefab)
     {
         Vector3 spawnPosition = GenerateRandomSpawnPosition();
         Instantiate(enemyPrefab, spawnPosition, Quaternion.identity, transform);
+        //SetEnemyStats(enemyPrefab);
     }
+    /*void SetEnemyStats(GameObject enemyPrefab){
+        enemyP = enemyPrefab.GetComponent<Enemy>();
+        enemyP.hp = (int)(enemyP.hp * levelSP.StageProgress);
+        enemyP.damage = (int)(enemyP.damage * levelSP.StageProgress);
+        enemyP.experience = (int)(enemyP.experience * levelSP.StageProgress);
+        enemyP.moveSpeed = (enemyP.moveSpeed * levelSP.StageProgress);
+    }*/
     private Vector3 GenerateRandomSpawnPosition(){
         minBound = Camera.main.ViewportToWorldPoint(new Vector3(-0.1f,-0.1f));
         maxBound = Camera.main.ViewportToWorldPoint(new Vector2(1.1f,1.1f));;
