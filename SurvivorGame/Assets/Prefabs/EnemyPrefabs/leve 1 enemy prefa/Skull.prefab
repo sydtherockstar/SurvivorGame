@@ -159,8 +159,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
-  hp: 30
-  damage: 3
+  hp: 20
+  damage: 2
   experience: 300
 --- !u!114 &8207685217180744301
 MonoBehaviour:

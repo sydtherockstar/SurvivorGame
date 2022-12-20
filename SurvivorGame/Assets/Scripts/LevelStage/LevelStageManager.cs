@@ -15,7 +15,7 @@ public class LevelStageManager : MonoBehaviour
         if(eIndex >= stageData.stageEvents.Count) { return; }
         if(stageTime.timer > stageData.stageEvents[eIndex].time){
             Debug.Log(stageData.stageEvents[eIndex].message);
-            for(int i = 0; i <= stageData.stageEvents[eIndex].enemyCount; i++){
+            for(int i = 0; i < stageData.stageEvents[eIndex].enemyCount; i++){
                 enemySpawner.SpawnEnemy(stageData.stageEvents[eIndex].enemyToSpawn);
             }
             eIndex += 1;

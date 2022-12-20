@@ -52,4 +52,10 @@ public class Enemy : MonoBehaviour, InterfaceDamagable
         animator.SetTrigger("isDead");
         targetGameObject.GetComponent<Level>().AddExperience(experience);
     }
+    public void SetEnemyStats(LevelStageProgress levelSP){
+        hp = (int)(hp * levelSP.StageProgress);
+        damage = (int)(damage * levelSP.StageProgress);
+        //experience = (int)(experience * levelSP.StageProgress);
+        //moveSpeed = (moveSpeed * levelSP.StageProgress);
+    }
 }
